@@ -1,5 +1,5 @@
 import React from 'react'
-import { useLanguage } from '../LanguageProvider'
+import { useLanguage } from '../LanguageProvider.jsx'
 // changed casing on file name
 function landing() {
     const { t } = useLanguage()

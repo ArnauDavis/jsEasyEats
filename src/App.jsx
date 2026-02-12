@@ -1,7 +1,7 @@
 import React, { createContext, useState, useContext } from 'react'
-import { LanguageProvider } from './LanguageProvider'
-import Header from './components/header'
-import Landing from './components/landing'
+import { LanguageProvider } from './LanguageProvider.jsx'
+import Header from './components/header.jsx'
+import Landing from './components/landing.jsx'
 function App() {
   
 

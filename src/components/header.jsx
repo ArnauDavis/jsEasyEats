@@ -1,5 +1,5 @@
 import React from 'react'
-import { useLanguage } from '../LanguageProvider'
+import { useLanguage } from '../LanguageProvider.jsx'
 function header() {
     const { t, setLang, lang } = useLanguage()
   return (
