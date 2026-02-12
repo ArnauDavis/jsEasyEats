@@ -1,7 +1,7 @@
 import React from 'react'
 import { useLanguage } from '../LanguageProvider.jsx'
 // changed casing on file name
-function landing() {
+function Landing() {
     const { t } = useLanguage()
   return (
     <div>
