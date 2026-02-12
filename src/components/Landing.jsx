@@ -1,5 +1,6 @@
 import React from 'react'
 import { useLanguage } from '../LanguageProvider'
+// changed casing on file name
 function landing() {
     const { t } = useLanguage()
   return (
