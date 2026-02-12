@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: false;
+ }
+
+
+@theme {
+  --color-cusRed: #FF5A5F;
+  --color-cusGreen: #00A699;
+  --color-cusOrange: #FC642D;
+  --color-cusDarkGrey: #484848;
+  --color-cusLightGrey: #767676;
+}
+
+:root {
+  /* background-color: #242424;  */
+  
+}
