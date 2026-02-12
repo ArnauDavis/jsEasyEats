@@ -37,8 +37,8 @@ function header() {
         </div>
           <ul tabIndex="-1" className="dropdown-content menu bg-white rounded-box z-1 w-52 p-2 shadow-sm text-cusLightGrey">
             <li className="hover:bg-cusGreen hover:text-white rounded-lg"><a>English</a></li>
-            <li className="hover:bg-cusGreen hover:text-white rounded-lg"><a>Catalan</a></li>
-            <li className="hover:bg-cusGreen hover:text-white rounded-lg"><a>Spanish</a></li>
+            <li className="hover:bg-cusGreen hover:text-white rounded-lg"><a>Català</a></li>
+            <li className="hover:bg-cusGreen hover:text-white rounded-lg"><a>Español</a></li>
           </ul>
         </div>
         <p className="md:inline cursor-pointer hover:bg-gray-100 p-3 rounded-full text-sm font-semibold text-gray-700">
