@@ -1,6 +1,7 @@
 import React from 'react'
-
+import { useLanguage } from '../LanguageProvider'
 function header() {
+    const { t, setLang, lang } = useLanguage()
   return (
     <div>
         <header className="sticky top-0 z-50 grid grid-cols-2 bg-white shadow-md p-5 md:px-10 items-center">
@@ -36,13 +37,13 @@ function header() {
             </div>
         </div>
           <ul tabIndex="-1" className="dropdown-content menu bg-white rounded-box z-1 w-52 p-2 shadow-sm text-cusLightGrey">
-            <li className="hover:bg-cusGreen hover:text-white rounded-lg"><a>English</a></li>
-            <li className="hover:bg-cusGreen hover:text-white rounded-lg"><a>Català</a></li>
-            <li className="hover:bg-cusGreen hover:text-white rounded-lg"><a>Español</a></li>
+            <li className="hover:bg-cusGreen hover:text-white rounded-lg"><button onClick={() => setLang('en')}>English</button></li>
+            <li className="hover:bg-cusGreen hover:text-white rounded-lg"><button onClick={() => setLang('cat')}>Català</button></li>
+            <li className="hover:bg-cusGreen hover:text-white rounded-lg"><button onClick={() => setLang('es')}>Español</button></li>
           </ul>
         </div>
-        <p className="md:inline cursor-pointer hover:bg-gray-100 p-3 rounded-full text-sm font-semibold text-gray-700">
-          See all recipes
+        <p className="md:inline whitespace-nowrap cursor-pointer hover:bg-gray-100 p-3 rounded-full text-sm font-semibold text-gray-700">
+          {t('header.text1')}
         </p>
       </div>
 
