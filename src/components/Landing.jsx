@@ -10,7 +10,7 @@ function Landing() {
       <div className="hero-content flex-col lg:flex-row">
         <img
           src={famBake1}
-          className="max-w-sm rounded-lg shadow-2xl"
+          className="w-full max-w-sm rounded-lg shadow-2xl"
         />
           <div className="py-4">
             <h1 className="text-4xl font-bold text-gray-900 sm:text-5xl">
