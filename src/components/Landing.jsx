@@ -6,8 +6,8 @@ function Landing() {
     const { t } = useLanguage()
   return (
 
-    <div className="hero min-h-screen bg-cover bg-center" style={{ backgroundImage: `url(${background1})` }}>
-      <div className="hero-content flex-col lg:flex-row w-full max-w-[100vw] p-4 gap-8">
+    <div className="hero min-h-screen bg-cover bg-center overflow-x-hidden" style={{ backgroundImage: `url(${background1})` }}>
+      <div className="hero-content flex-col lg:flex-row w-full max-w-full p-4 gap-8">
         <img
           src={famBake1}
           className="w-full max-w-sm rounded-lg shadow-2xl"
@@ -29,6 +29,7 @@ function Landing() {
                 {t('landing.button2')}
               </a>
             </div>
+            <p>proof push went live</p>
           </div>
       </div>
     </div>
