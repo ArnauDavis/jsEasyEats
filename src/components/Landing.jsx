@@ -2,7 +2,7 @@ import React from 'react'
 import { useLanguage } from '../LanguageProvider'
 import famBake1 from '../assets/familybake1.jpg'
 import background1 from "../assets/background1.png"
-function landing() {
+function Landing() {
     const { t } = useLanguage()
   return (
 
