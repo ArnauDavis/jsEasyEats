@@ -1,6 +1,6 @@
 import React, { createContext, useState, useContext } from 'react'
 import { LanguageProvider } from './LanguageProvider.jsx'
-import Header from './components/header.jsx'
+import Header from './components/Header.jsx'
 import Landing from './components/Landing.jsx'
 import Footer from './components/Footer.jsx'
 function App() {
