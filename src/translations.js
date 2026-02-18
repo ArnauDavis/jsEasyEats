@@ -15,6 +15,33 @@ export const translations = {
             text1: "Copyright",
             text2: "All rights reserved"
         },
+        recipes: {
+            allItems: ['brownies', 'ck alfredo', 'basil Pesto'], // Use the keys here, not the display names
+            items: {
+              brownies: {
+                name: 'Brownies',
+                story: "This recipe has been in my family for three generations, it has been perfected by Ari.",
+                heroImage: "images/alfredo-final.jpg",
+                stats: {
+                  prep: "10 mins",
+                  cook: "40 mins",
+                  serves: 9
+                },
+                ingredients: [
+                  "1/2 cup butter, plus additional melted butter for greasing pan", "1 cup semisweet chocolate chips", "4 large eggs",
+                  "1 cup granulated sugar", "1 & 1/2 teaspoons vanilla extract", "2/3 cup all-purpose flour", "2 tablespoons unsweetened cocoa powder",
+                  "Confectioners' sugar for dusting brownies"
+                ],
+                directions: [
+                  "Preheat oven to 325 F", "Grease a 9 x 9 x 2-inch baking pan with melted butter", "On your stovetop, take a heavy saucepan and melt the chocolate and butter over low heat. Then stir gently to blend well, set it aside, and let it cool",
+                  "Beat together the eggs, sugar, and vanilla extract. Add the melted chocolate and butter. Fold in in the flour and the cocoa, and stir the mixture until it is well blended and smooth.",
+                  "Pour the batter into the pan and spread it to the edges. Bake for 40 minutes or until the center of the top is almost firm and a toothpick inserted in the center comes out with dry crumbs sticking to it.",
+                  "Remove the pan and let it stand for 45 minutes or until completely cool. Dust with confectioners' sugar and cut into 1 & 1/2 x 3-inch bars. Makes 18 bars. Now eat up!"
+                ]
+              },
+              // ... other recipes
+            }
+        }
     },
     cat:{
         header: {
@@ -50,4 +77,20 @@ export const translations = {
         },
 
     }
+}
+
+
+const recipes = {
+    allItems : ['chicken alfredo','brownies','basil pesto'],
+    ckAlf : {
+        name: 'chicken alfredo',
+        ingredients: ['pasta','chicken','alfredo'],
+        directions: ['boil pasta', 'cook chicken', 'simmer sauce', 'mix']
+    },
+    brownies: {
+        name: 'brownies',
+        ingredients: ['chocolate','flour','sugar'],
+        directions: ['melt chocolate','mix all ingredients']
+    }
+
 }

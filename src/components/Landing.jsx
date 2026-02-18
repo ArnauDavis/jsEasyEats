@@ -1,5 +1,6 @@
 import React from 'react'
 import { useLanguage } from '../LanguageProvider'
+import { Link } from 'react-router-dom'
 import famBake1 from '../assets/familybake1.jpg'
 import background1 from "../assets/background1.png"
 function Landing() {
@@ -25,9 +26,11 @@ function Landing() {
               <a className="inline-block rounded border border-cusRed bg-cusRed px-5 py-3 font-medium text-white shadow-sm transition-colors hover:bg-red-300 hover:border-red-300" href="#">
                 {t('landing.button1')}
               </a>           
-              <a className="inline-block rounded border border-gray-200 px-5 py-3 font-medium text-gray-700 shadow-sm transition-colors hover:bg-gray-50 hover:text-gray-900" href="#">
+              <Link
+                to="/allrecipes"
+               className="inline-block rounded border border-gray-200 px-5 py-3 font-medium text-gray-700 shadow-sm transition-colors hover:bg-gray-50 hover:text-gray-900">
                 {t('landing.button2')}
-              </a>
+              </Link>
             </div>
             <p>proof push went live</p>
           </div>

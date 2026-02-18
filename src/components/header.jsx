@@ -1,11 +1,12 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { useLanguage } from '../LanguageProvider.jsx'
 function Header() {
     const { t, setLang, lang } = useLanguage()
   return (
     <div className="navbar shadow-sm w-full">
       <div className="flex-1">
-        <a className=" text-xl text-cusGreen font-bold">easy eats</a>
+        <Link to="/" className=" text-xl text-cusGreen font-bold">easy eats</Link>
       </div>
       <div className="flex gap-2">
         <input type="text" placeholder={t('header.text1')} className="input input-bordered w-24 md:w-auto" />
