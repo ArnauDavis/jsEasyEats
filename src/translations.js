@@ -59,6 +59,39 @@ export const translations = {
             text1: "Propietat intel·lectual",
             text2: "Tots els drets reservats"
         },
+        recipes: {
+            allItems: ['brownies', ],
+                items: {
+                    brownies: {
+                        name: 'Brownies',
+                        story: "Aquesta recepta ha passat per tres generacions de la meva família i ha estat perfeccionada per l'Ari.",
+                        heroImage: "images/alfredo-final.jpg",
+                        stats: {
+                            prep: "10 min",
+                            cook: "40 min",
+                            serves: 9
+                        },
+                        ingredients: [
+                            "1/2 tassa de mantega, més mantega desfeta addicional per greixar el motlle",
+                            "1 tassa de xips de xocolata semidulça",
+                            "4 ous grans",
+                            "1 tassa de sucre granulat",
+                            "1 culleradeta i mitja d'extracte de vainilla",
+                            "2/3 de tassa de farina de blat",
+                            "2 cullerades de cacau en pols sense sucre",
+                            "Sucre de llustre per decorar"
+                        ],
+                        directions: [
+                            "Preescalfeu el forn a 160°C (325 F).",
+                            "Unteu un motlle de 23x23 cm amb la mantega desfeta.",
+                            "En un cassó al foc, foneu la xocolata i la mantega a foc lent. Remeneu suaument per barrejar-ho bé, retireu-ho i deixeu-ho refredar.",
+                            "Bateu els ous, el sucre i la vainilla. Afegiu-hi la xocolata i la mantega foses. Incorporeu la farina i el cacau, i remeneu fins que la barreja sigui homogènia.",
+                            "Aboqueu la massa al motlle. Enforneu durant 40 minuts o fins que el centre estigui gairebé ferm.",
+                            "Deixeu refredar 45 minuts. Decoreu amb sucre de llustre i talleu-ho en barretes. Bon profit!"
+                        ]
+                    }
+                }
+            },
     },
     es:{
         header: {
@@ -75,9 +108,43 @@ export const translations = {
             text1: "Propiedad intelectual",
             text2: "Todos los derechos reservados"
         },
+            recipes: {
+                allItems: ['brownies', 'ck alfredo', 'basil Pesto'],
+                    items: {
+                        brownies: {
+                            name: 'Brownies',
+                            story: "Esta receta ha estado en mi familia durante tres generaciones y ha sido perfeccionada por Ari.",
+                            heroImage: "images/alfredo-final.jpg",
+                            stats: {
+                                prep: "10 min",
+                                cook: "40 min",
+                                serves: 9
+                            },
+                            ingredients: [
+                                "1/2 taza de mantequilla, más mantequilla derretida adicional para engrasar el molde",
+                                "1 taza de chispas de chocolate semidulce",
+                                "4 huevos grandes",
+                                "1 taza de azúcar granulada",
+                                "1 cucharadita y media de extracto de vainilla",
+                                "2/3 de taza de harina de todo uso",
+                                "2 cucharadas de cacao en polvo sin azúcar",
+                                "Azúcar glas para espolvorear"
+                            ],
+                            directions: [
+                                "Precaliente el horno a 160°C (325 F).",
+                                "Engrase un molde de 23x23 cm con la mantequilla derretida.",
+                                "En una cacerola, derrita el chocolate y la mantequilla a fuego lento. Revuelva suavemente, retire del fuego y deje enfriar.",
+                                "Bata los huevos, el azúcar y la vainilla. Agregue el chocolate y la mantequilla derretidos. Incorpore la harina y el cacao hasta que la mezcla esté suave.",
+                                "Vierta la mezcla en el molde. Hornee por 40 minutos o hasta que el centro esté casi firme.",
+                                "Deje enfriar por 45 minutos. Espolvoree con azúcar glas y corte en barras. ¡A comer!"
+                            ]
+                        }
+                    }
+                }       
+    }   
 
-    }
 }
+
 
 
 const recipes = {
