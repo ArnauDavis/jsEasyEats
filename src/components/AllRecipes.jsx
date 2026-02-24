@@ -1,15 +1,17 @@
 import React from 'react'
-import { useLanguage } from '../LanguageProvider'
+import { useParams } from 'react-router-dom'
+import { useLanguage } from '../LanguageProvider.jsx'
 import { Link } from 'react-router-dom'
-
+import { RecipePicture } from './RecipePictures.js'
 
 function Recipe({recipeKey}){
-  const { t } = useLanguage()
+  const { t, lang } = useLanguage()
   const recipeData = t(`recipes.items.${recipeKey}`)
   if (!recipeData || typeof recipeData === 'string') return null
     return (
       <>
   <li className="list-row">
+    <Link to={`/recipe/${lang}/${recipeKey}`}>
     <div><img className="size-10 rounded-box" src="https://img.daisyui.com/images/profile/demo/1@94.webp"/></div>
     <div>
       <div>{recipeData.name}</div>
@@ -17,6 +19,7 @@ function Recipe({recipeKey}){
       {recipeData.story}
       </p>
     </div>
+    </Link>
   </li>
       </>
     )
