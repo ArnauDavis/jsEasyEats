@@ -17,7 +17,7 @@ function App() {
         <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/allrecipes" element={<AllRecipes />} />
-        <Route path="/recipe/:lang/:recipeName" element={<Recipe/>}/>
+        <Route path="/recipe/:recipename" element={<Recipe/>}/>
         </Routes>
         <Footer/>
       </LanguageProvider>   

@@ -2,17 +2,18 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 import { useLanguage } from '../LanguageProvider.jsx'
 import { Link } from 'react-router-dom'
-import { RecipePicture } from './RecipePictures.js'
-
+import recipeImages from '../utils/recipesImages.js'
+console.log("ALL LOADED IMAGES:", recipeImages)
 function Recipe({recipeKey}){
   const { t, lang } = useLanguage()
   const recipeData = t(`recipes.items.${recipeKey}`)
   if (!recipeData || typeof recipeData === 'string') return null
+  const thumbnail = recipeImages[recipeKey]?.[0]
     return (
       <>
   <li className="list-row">
-    <Link to={`/recipe/${lang}/${recipeKey}`}>
-    <div><img className="size-10 rounded-box" src="https://img.daisyui.com/images/profile/demo/1@94.webp"/></div>
+    <Link to={`/recipe/${recipeKey}`}>
+    <div><img className="size-10 rounded-box" src={thumbnail} alt={recipeKey}/></div>
     <div>
       <div>{recipeData.name}</div>
       <p className="list-col-wrap text-xs">
