@@ -3,7 +3,6 @@ import { useParams } from 'react-router-dom'
 import { useLanguage } from '../LanguageProvider.jsx'
 import { Link } from 'react-router-dom'
 import recipeImages from '../utils/recipesImages.js'
-console.log("ALL LOADED IMAGES:", recipeImages)
 function Recipe({recipeKey}){
   const { t, lang } = useLanguage()
   const recipeData = t(`recipes.items.${recipeKey}`)
@@ -36,7 +35,7 @@ function AllRecipes({recipe}) {
     <>
     <ul className="list bg-base-100 rounded-box shadow-md p-4">
   
-  <li className="p-4 pb-2 text-xs opacity-60 tracking-wide">All current recipes</li>
+  <li className="p-4 pb-2 text-xs opacity-60 tracking-wide">{t('recipes.text1')}</li>
   
   {itemsToRender.map((key) => (
           <Recipe key={key} recipeKey={key} />

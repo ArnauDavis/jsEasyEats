@@ -16,6 +16,7 @@ export const translations = {
             text2: "All rights reserved"
         },
         recipes: {
+            text1: "All current recipes",
             allItems: ['brownies', 'ck alfredo', 'basil Pesto'], // Use the keys here, not the display names
             items: {
               brownies: {
@@ -41,6 +42,16 @@ export const translations = {
               },
               // ... other recipes
             }
+        },
+        recipe: {
+            text1: "Recipe for",
+            text2: "prep time",
+            text3: "minutes",
+            text4: "Serves",
+            text5: "Ingredients",
+            text6: "Directions",
+            text7: "Cook time",
+            
         }
     },
     cat:{
@@ -60,6 +71,7 @@ export const translations = {
             text2: "Tots els drets reservats"
         },
         recipes: {
+            text1: "Totes les receptes actuals",
             allItems: ['brownies', ],
                 items: {
                     brownies: {
@@ -92,6 +104,15 @@ export const translations = {
                     }
                 }
             },
+            recipe: {
+            text1: "Recepta de",
+            text2: "temps de preparació",
+            text3: "minuts",
+            text4: "Racions",
+            text5: "Ingredients",
+            text6: "Instruccions",
+            text7: "Temps de cocció",
+        },
     },
     es:{
         header: {
@@ -108,39 +129,49 @@ export const translations = {
             text1: "Propiedad intelectual",
             text2: "Todos los derechos reservados"
         },
-            recipes: {
-                allItems: ['brownies', 'ck alfredo', 'basil Pesto'],
-                    items: {
-                        brownies: {
-                            name: 'Brownies',
-                            story: "Esta receta ha estado en mi familia durante tres generaciones y ha sido perfeccionada por Ari.",
-                            heroImage: "images/alfredo-final.jpg",
-                            stats: {
-                                prep: "10 min",
-                                cook: "40 min",
-                                serves: 9
-                            },
-                            ingredients: [
-                                "1/2 taza de mantequilla, más mantequilla derretida adicional para engrasar el molde",
-                                "1 taza de chispas de chocolate semidulce",
-                                "4 huevos grandes",
-                                "1 taza de azúcar granulada",
-                                "1 cucharadita y media de extracto de vainilla",
-                                "2/3 de taza de harina de todo uso",
-                                "2 cucharadas de cacao en polvo sin azúcar",
-                                "Azúcar glas para espolvorear"
-                            ],
-                            directions: [
-                                "Precaliente el horno a 160°C (325 F).",
-                                "Engrase un molde de 23x23 cm con la mantequilla derretida.",
-                                "En una cacerola, derrita el chocolate y la mantequilla a fuego lento. Revuelva suavemente, retire del fuego y deje enfriar.",
-                                "Bata los huevos, el azúcar y la vainilla. Agregue el chocolate y la mantequilla derretidos. Incorpore la harina y el cacao hasta que la mezcla esté suave.",
-                                "Vierta la mezcla en el molde. Hornee por 40 minutos o hasta que el centro esté casi firme.",
-                                "Deje enfriar por 45 minutos. Espolvoree con azúcar glas y corte en barras. ¡A comer!"
-                            ]
-                        }
+        recipes: {
+            text1: "Todas las recetas actuales",
+            allItems: ['brownies', 'ck alfredo', 'basil Pesto'],
+                items: {
+                    brownies: {
+                        name: 'Brownies',
+                        story: "Esta receta ha estado en mi familia durante tres generaciones y ha sido perfeccionada por Ari.",
+                        heroImage: "images/alfredo-final.jpg",
+                        stats: {
+                            prep: "10 min",
+                            cook: "40 min",
+                            serves: 9
+                        },
+                        ingredients: [
+                            "1/2 taza de mantequilla, más mantequilla derretida adicional para engrasar el molde",
+                            "1 taza de chispas de chocolate semidulce",
+                            "4 huevos grandes",
+                            "1 taza de azúcar granulada",
+                            "1 cucharadita y media de extracto de vainilla",
+                            "2/3 de taza de harina de todo uso",
+                            "2 cucharadas de cacao en polvo sin azúcar",
+                            "Azúcar glas para espolvorear"
+                        ],
+                        directions: [
+                            "Precaliente el horno a 160°C (325 F).",
+                            "Engrase un molde de 23x23 cm con la mantequilla derretida.",
+                            "En una cacerola, derrita el chocolate y la mantequilla a fuego lento. Revuelva suavemente, retire del fuego y deje enfriar.",
+                            "Bata los huevos, el azúcar y la vainilla. Agregue el chocolate y la mantequilla derretidos. Incorpore la harina y el cacao hasta que la mezcla esté suave.",
+                            "Vierta la mezcla en el molde. Hornee por 40 minutos o hasta que el centro esté casi firme.",
+                            "Deje enfriar por 45 minutos. Espolvoree con azúcar glas y corte en barras. ¡A comer!"
+                        ]
                     }
-                }       
+                }
+            },
+        recipe: {
+            text1: "Receta de",
+            text2: "tiempo de preparación",
+            text3: "minutos",
+            text4: "Porciones",
+            text5: "Ingredientes",
+            text6: "Preparación",
+            text7: "Tiempo de cocción",
+        }       
     }   
 
 }
