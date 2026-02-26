@@ -53,6 +53,7 @@ export const translations = {
             text7: "Cook time",
             text8: "See all recipes",
             text9: "Stats",
+            text10: "Recipe not found.",
             
         }
     },
@@ -116,6 +117,7 @@ export const translations = {
             text7: "Temps de cocció",
             text8: "Veure totes les receptes",
             text9: "Estats",
+            text10: "No s'ha trobat la recepta.",
         },
     },
     es:{
@@ -177,6 +179,7 @@ export const translations = {
             text7: "Tiempo de cocción",
             text8: "Ver todas las recetas",
             text9: "Estads",
+            text10: "No se encontró la receta",
         }       
     }   
 

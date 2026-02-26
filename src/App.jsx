@@ -17,6 +17,10 @@ function ScrollToTop() {
   return null
 }
 
+function scrollToTop() {
+    window.scrollTo(0, 0);
+  }
+
 function App() {
   
 
@@ -29,7 +33,7 @@ function App() {
           <Routes>
           <Route path="/" element={<Landing />} />
           <Route path="/allrecipes" element={<AllRecipes />} />
-          <Route path="/recipe/:recipename" element={<Recipe/>}/>
+          <Route path="/recipe/:recipename" element={<Recipe scrollToTop={scrollToTop}/>}/>
           </Routes>
           <Footer/>
       </LanguageProvider>   
