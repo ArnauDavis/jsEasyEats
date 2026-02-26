@@ -45,12 +45,14 @@ export const translations = {
         },
         recipe: {
             text1: "Recipe for",
-            text2: "prep time",
+            text2: "Prep time",
             text3: "minutes",
             text4: "Serves",
             text5: "Ingredients",
             text6: "Directions",
             text7: "Cook time",
+            text8: "See all recipes",
+            text9: "Stats",
             
         }
     },
@@ -106,12 +108,14 @@ export const translations = {
             },
             recipe: {
             text1: "Recepta de",
-            text2: "temps de preparació",
+            text2: "Temps de preparació",
             text3: "minuts",
             text4: "Racions",
             text5: "Ingredients",
             text6: "Instruccions",
             text7: "Temps de cocció",
+            text8: "Veure totes les receptes",
+            text9: "Estats",
         },
     },
     es:{
@@ -165,12 +169,14 @@ export const translations = {
             },
         recipe: {
             text1: "Receta de",
-            text2: "tiempo de preparación",
+            text2: "Tiempo de preparación",
             text3: "minutos",
             text4: "Porciones",
             text5: "Ingredientes",
             text6: "Preparación",
             text7: "Tiempo de cocción",
+            text8: "Ver todas las recetas",
+            text9: "Estads",
         }       
     }   
 

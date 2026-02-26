@@ -21,3 +21,24 @@ html, body {
   max-width: 100vw;
   overflow-x: hidden;
 }
+
+/* Target the carousel and its webkit-scrollbar pseudo-element */
+.carousel::-webkit-scrollbar {
+    display: block; /* Changes it from 'none' to visible */
+    width: 20px;     /* You must define a width/height for webkit scrollbars to show */
+    height: 20px;
+}
+
+/* Optional: Add some styling so it's actually visible against your background */
+.carousel::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 10px;
+}
+
+.carousel::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.carousel {
+    scrollbar-width: auto !important; /* Overrides the 'none' setting */
+}
