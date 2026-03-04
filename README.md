@@ -18,3 +18,5 @@ If you are developing a production application, we recommend using TypeScript wi
 
 things learned: 
 the limitless of variables that can be added to a url
+
+In tailwind, classes without prefixes apply to smaller screens first, using a prefix like sm apply as the screen gets larger

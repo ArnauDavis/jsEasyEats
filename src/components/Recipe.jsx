@@ -80,7 +80,7 @@ function Recipe({scrollToTop}) {
       </div>
       </section> 
 
-      <section className="px-4 flex flex-col">
+      <section className="px-4 flex flex-col mx-0 sm:mx-auto">
         <span className="text-left text-xl font-bold text-gray-900 sm:text-2xl pb-2">{t('recipe.text5')}</span>
           <ul className="lg:columns-2 lg:gap-8">
             {recipeData.ingredients.map((ingredient,index)=>(
