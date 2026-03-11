@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { useLanguage } from '../LanguageProvider.jsx'
+import Search from "../components/Search.jsx"
 function Header() {
     const { t, setLang, lang } = useLanguage()
   return (
@@ -9,7 +10,7 @@ function Header() {
         <Link to="/" className=" text-xl text-cusGreen font-bold">easy eats</Link>
       </div>
       <div className="flex gap-2">
-        <input type="text" placeholder={t('header.text1')} className="input input-bordered w-24 md:w-auto" />
+        <Search/>
         <div className="dropdown dropdown-end pr-2">
           <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
             <div className="flex items-center space-x-2 border-2 p-2 rounded-full cursor-pointer hover:shadow-md transition duration-200">
