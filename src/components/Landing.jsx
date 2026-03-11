@@ -23,11 +23,13 @@ function Landing() {
               {t('landing.intro')}
             </p>
             <div className="mt-4 flex gap-4 sm:mt-6">
-              <a className="inline-block rounded border border-cusRed bg-cusRed px-5 py-3 font-medium text-white shadow-sm transition-colors hover:bg-red-300 hover:border-red-300" href="#">
-                {t('landing.button1')}
-              </a>           
               <Link
                 to="/allrecipes"
+               className="inline-block rounded border border-cusRed bg-cusRed px-5 py-3 font-medium text-white shadow-sm transition-colors hover:bg-red-300 hover:border-red-300">
+                {t('landing.button1')}
+              </Link>           
+              <Link
+                to={`/recipe/${t('recipes.allItems')[Math.floor(Math.random()*t('recipes.allItems').length)]}`}
                className="inline-block rounded border border-gray-200 px-5 py-3 font-medium text-gray-700 shadow-sm transition-colors hover:bg-gray-50 hover:text-gray-900">
                 {t('landing.button2')}
               </Link>
