@@ -6,6 +6,7 @@ import Landing from './components/Landing.jsx'
 import AllRecipes from './components/AllRecipes.jsx'
 import Recipe from './components/Recipe.jsx'
 import Footer from './components/Footer.jsx'
+import Search from "./components/Search.jsx"
 
 function ScrollToTop() {
   const { pathname } = useLocation()
