@@ -32,7 +32,7 @@ function Landing() {
                 {t('landing.button2')}
               </Link>
             </div>
-            <p>proof push went live</p>
+            
           </div>
       </div>
     </div>
