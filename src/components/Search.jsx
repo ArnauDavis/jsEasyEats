@@ -31,7 +31,7 @@ function Search() {
   }
 
   return (
-    <div className="relative w-full max-w-md mx-auto">
+    <div className="relative w-38 max-w-md mx-auto">
       <input
         type="text"
         placeholder={t('header.text1')}
