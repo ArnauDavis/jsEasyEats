@@ -17,8 +17,39 @@ export const translations = {
         },
         recipes: {
             text1: "All current recipes",
-            allItems: ['brownies', "spanishYogurtCake"], // Use the keys here, not the display names
+            allItems: ['brownies', "spanishYogurtCake", 'ganache', 'bananaBread',], // Use the keys here, not the display names
             items: {
+                bananaBread: {
+                  name: 'Best Banana Bread',
+                  story: "A fan favorite, soft, delicious and full of potassium, this banana bread won't survive the night if left out on a counter.",
+                  stats: {
+                    prep: "25 mins",
+                    cook: "40 mins",
+                    serves: "2 loaves"
+                  },
+                  ingredients: [
+                    "1/2 cup unsalted butter, at room temperature",
+                    "1 cup granulated sugar",
+                    "2 large eggs",
+                    "2 cups all purpose flour",
+                    "1 tsp baking soda",
+                    "1/2 tsp salt",
+                    "3-4 medium bananas, mashed",
+                    "1 tsp vanilla extract"
+                  ],
+                  directions: [
+                    "Preheat the oven to 350°F and line two 8x4 bread pans with parchment paper or grease well.",
+                    "In a medium bowl, mash the bananas with a fork until smooth with some small bits for texture; set aside.",
+                    "In a separate bowl, cream the butter and sugar together using a mixer.",
+                    "Add the eggs and cream the mixture until well combined.",
+                    "Add the flour, baking soda, and salt. Mix until just combined.",
+                    "Stir in the mashed bananas and vanilla extract until fully incorporated.",
+                    "Divide the batter evenly between the two pans and bake for 35-40 minutes until the top is puffed and a tester comes out clean.",
+                    "Cool in the pan for 5-10 minutes, then move to a wire rack to cool completely.",
+                    "Serve warm, at room temperature, or cold with a little butter.",
+                    "Note: To bake in a single 9x5 pan, bake at 350°F for 35 minutes, then lower to 325°F for another 20-25 minutes. If the top gets too dark, tent with foil."
+                  ]
+                },
               brownies: {
                 name: 'Brownies',
                 story: "This recipe has been in my family for three generations, it has been perfected by Ari.",
@@ -66,7 +97,29 @@ export const translations = {
                       "Place in the oven with bottom heat at 180°C for approximately 35 minutes. To check if it is done, prick the cake with a toothpick; if it comes out clean, it is ready.",
                       "Let it cool before removing it from the mold, and it will be ready to eat."
                     ]
-                }  
+                },
+                ganache: {
+                      name: 'Chocolate Ganache',
+                      story: "Throughout the kitchen and the pantry, Aleix alone is the Honored One. When Aleix enters the kitchen, the balance of the culinary world shifts. This ganache is the pinnacle of Cursed Technique: richness and sweetness colliding to create the perfect Hollow Purple. They asked Aleix, 'Would you lose the flavor profile if you used cheaper chocolate?' He simply replied, 'Nah, I’d win.",
+                      stats: {
+                        prep: "10 mins",
+                        cook: "3 mins",
+                        serves: "1.5 cups"
+                      },
+                      ingredients: [
+                        "Two 4-ounce quality semi-sweet chocolate bars (113g each), finely chopped",
+                        "1 cup (8 ounces; 240ml) heavy cream or heavy whipping cream"
+                      ],
+                      directions: [
+                        "Place chopped chocolate in a medium heat-proof bowl.",
+                        "Heat the cream in a small saucepan over medium heat until it begins to gently simmer. (Do not let it come to a rapid boil—that’s too hot!)",
+                        "Pour over chocolate, then let it sit for 2–3 minutes to gently soften the chocolate.",
+                        "With a metal spoon or small silicone spatula, very slowly stir until completely combined and chocolate has melted.",
+                        "Use immediately as a drizzle, or let sit at room temperature for up to 2 hours to cool and thicken. If refrigerating to speed up the process, stir occasionally to ensure it stays smooth.",
+                        "Once completely cool and thick, the ganache can be piped, scooped, or beaten with a mixer for 4 minutes until light in color and texture.",
+                        "Store covered in the refrigerator for up to 5 days or freeze for up to 3 months. Thaw in the refrigerator and rewarm over a double boiler if thinning is needed."
+                      ]
+                    }  
             }
         },
         recipe: {
@@ -101,8 +154,39 @@ export const translations = {
         },
         recipes: {
             text1: "Totes les receptes actuals",
-            allItems: ['brownies', "spanishYogurtCake",],
+            allItems: ['brownies', "spanishYogurtCake", 'ganache', 'bananaBread'],
                 items: {
+                    bananaBread: {
+                      name: 'El millor pa de plàtan',
+                      story: "Un dels preferits de tothom: suau, deliciós i ple de potassi; aquest pa de plàtan no sobreviurà ni una nit si el deixes al taulell.",
+                      stats: {
+                        prep: "25 min",
+                        cook: "40 min",
+                        serves: "2 pans"
+                      },
+                      ingredients: [
+                        "115g de mantega sense sal, a temperatura ambient",
+                        "200g de sucre blanc",
+                        "2 ous grans",
+                        "250g de farina per a tot ús",
+                        "1 culleradeta de bicarbonat de sodi",
+                        "1/2 culleradeta de sal",
+                        "3-4 plàtans mitjans, aixafats",
+                        "1 culleradeta d'extracte de vainilla"
+                      ],
+                      directions: [
+                        "Preescalfeu el forn a 175°C i prepareu dos motlles de 20x10 cm amb paper de forn o greixeu-los bé.",
+                        "En un bol mitjà, xafeu els plàtans amb una forquilla fins que estiguin ben des fets però amb trossets per donar textura.",
+                        "En un altre bol, bateu la mantega amb el sucre fins a obtenir una crema.",
+                        "Afegiu-hi els ous i continueu bategant fins que estigui ben combinat.",
+                        "Incorporeu-hi la farina, el bicarbonat i la sal. Barregeu-ho fins que quedi homogeni.",
+                        "Finalment, afegiu-hi els plàtans aixafats i la vainilla.",
+                        "Repartiu la massa entre els dos motlles i enforneu uns 35-40 minuts o fins que l'escuradents surti net.",
+                        "Deixeu refredar 5-10 minuts al motlle i després passeu-lo a una reixeta.",
+                        "Serviu-lo tebi, a temperatura ambient o fred, preferiblement amb una mica de mantega.",
+                        "Nota: Si feu servir un sol motlle gran (23x13 cm), enforneu a 175°C durant 35 minuts, abaixeu a 160°C i coeu 20-25 minuts més. Si es browning massa, tapeu-lo amb paper d'alumini."
+                      ]
+                    },
                     brownies: {
                         name: 'Brownies',
                         story: "Aquesta recepta ha passat per tres generacions de la meva família i ha estat perfeccionada per l'Ari.",
@@ -157,7 +241,29 @@ export const translations = {
                             "Poseu-ho al forn amb l'escalfor de baix a 180°C durant uns 35 minuts. Per saber si està feta, punxeu la coca amb un escuradents; si surt net, ja està llesta.",
                             "Deixeu-la refredar abans de desemmotllar-la i ja estarà a punt per menjar."
                           ]
-                        }
+                        },
+                        ganache: {
+                          name: "Ganache de xocolata",
+                          story: "A la cuina i al celler, només l'Aleix és l'Honorat. Quan l'Aleix entra a la cuina, l'equilibri del món culinari es desplaça. Aquesta ganache és el cim de la Tècnica Maleïda: riquesa i dolçor xocant per crear el Purpulla Buit perfecte. Li van preguntar a l'Aleix: 'Perdries el perfil de gust si fessis servir xocolata més barata?' Ell simplement va respondre: 'No, jo guanyaria.'",
+                          stats: {
+                            prep: "10 min",
+                            cook: "3 min",
+                            serves: "350 ml"
+                          },
+                          ingredients: [
+                            "2 rajoles de xocolata negra de qualitat de 113g cada una, ben picades",
+                            "240ml de nata líquida per muntar (mínim 35% matèria grassa)"
+                          ],
+                          directions: [
+                            "Poseu la xocolata picada en un bol mitjà resistent a la calor.",
+                            "Escalfeu la nata en un cassó petit a foc mitjà fins que comenci a bullir lleugerament. (No deixeu que arribi a un bull ràpid, ja que estaria massa calenta!)",
+                            "Aboqueu la nata sobre la xocolata i deixeu-la reposar de 2 a 3 minuts perquè la xocolata s'estovi.",
+                            "Amb una cullera metàl·lica o una espàtula de silicona petita, remeneu molt lentament fins que estigui completament combinat i la xocolata s'hagi fos.",
+                            "Utilitzeu-la immediatament com a cobertura, o deixeu-la reposar a temperatura ambient fins a 2 hores perquè es refredi i espesseixi. Si la poseu a la nevera per accelerar el procés, remeneu-la de tant en tant.",
+                            "Un cop estigui completament freda i espessa, la ganache es pot utilitzar amb màniga pastissera o batre-la amb varetes durant 4 minuts fins que quedi clara i esponjosa.",
+                            "Guardeu-la tapada a la nevera fins a 5 dies o al congelador fins a 3 mesos. Descongeleu-la a la nevera i torneu-la a escalfar al bany maria si cal estovar-la."
+                          ]
+                        },
                 }
             },
             recipe: {
@@ -190,8 +296,39 @@ export const translations = {
         },
         recipes: {
             text1: "Todas las recetas actuales",
-            allItems: ['brownies', "spanishYogurtCake",],
+            allItems: ['brownies', "spanishYogurtCake", 'ganache', 'bananaBread'],
                 items: {
+                    bananaBread: {
+                      name: 'El mejor pan de plátano',
+                      story: "Uno de los favoritos de todos: suave, delicioso y lleno de potasio; este pan de plátano no sobrevivirá ni una noche si lo dejas sobre la encimera.",
+                      stats: {
+                        prep: "25 min",
+                        cook: "40 min",
+                        serves: "2 panes"
+                      },
+                      ingredients: [
+                        "115g de mantequilla sin sal, a temperatura ambiente",
+                        "200g de azúcar blanca",
+                        "2 huevos grandes",
+                        "250g de harina de trigo común",
+                        "1 cucharadita de bicarbonato de sodio",
+                        "1/2 cucharadita de sal",
+                        "3-4 plátanos medianos, machacados",
+                        "1 cucharadita de extracto de vainilla"
+                      ],
+                      directions: [
+                        "Precalienta el horno a 175°C y prepara dos moldes de 20x10 cm con papel vegetal o engrásalos bien.",
+                        "En un bol mediano, machaca los plátanos con un tenedor hasta que estén suaves pero con trocitos para dar textura.",
+                        "En un bol aparte, bate la mantequilla y el azúcar hasta obtener una crema.",
+                        "Añade los huevos y bate hasta que la mezcla esté bien combinada.",
+                        "Incorpora la harina, el bicarbonato y la sal. Mezcla hasta que se integre.",
+                        "Por último, añade los plátanos machacados y la vainilla.",
+                        "Divide la masa entre los dos moldes y hornea de 35 a 40 minutos o hasta que un palillo salga limpio.",
+                        "Deja enfriar en el molde de 5 a 10 minutos y luego pásalo a una rejilla.",
+                        "Sirve caliente, a temperatura ambiente o frío, ¡con un poco de mantequilla está mejor!",
+                        "Nota: Si usas un solo molde grande (23x13 cm), hornea a 175°C por 35 min, baja a 160°C y cocina 20-25 min más. Si se dora demasiado rápido, cúbrelo con papel de aluminio."
+                      ]
+                    },
                     brownies: {
                         name: 'Brownies',
                         story: "Esta receta ha estado en mi familia durante tres generaciones y ha sido perfeccionada por Ari.",
@@ -247,6 +384,28 @@ export const translations = {
                             "Dejar enfriar antes de desmoldar y ya estará listo para comer."
                           ]
                     },
+                    ganache: {
+                          name: "Ganache de chocolate",
+                          story: "En la cocina y en la despensa, solo Aleix es el Honorado. Cuando Aleix entra en la cocina, el equilibrio del mundo culinario se desplaza. Esta ganache es la cima de la Técnica Maldita: riqueza y dulzura colisionando para crear el Púrpura Imaginario perfecto. Le preguntaron a Aleix: '¿Perderías el perfil de sabor si usaras chocolate más barato?' Él simplemente respondió: 'No, yo ganaría.'",
+                          stats: {
+                            prep: "10 min",
+                            cook: "3 min",
+                            serves: "350 ml"
+                          },
+                          ingredients: [
+                            "2 tabletas de chocolate negro de calidad de 113g cada una, finamente picadas",
+                            "240ml de nata para montar o crema para batir"
+                          ],
+                          directions: [
+                            "Coloca el chocolate picado en un bol mediano resistente al calor.",
+                            "Calienta la nata en un cazo pequeño a fuego medio hasta que comience a hervir suavemente. (¡No dejes que llegue a un hervor rápido, estaría demasiado caliente!)",
+                            "Vierte la nata sobre el chocolate y deja reposar de 2 a 3 min para que el chocolate se ablande.",
+                            "Con una cuchara metálica o espátula de silicona, remueve muy lentamente hasta que esté totalmente combinado y el chocolate se haya fundido.",
+                            "Úsala de inmediato como cobertura líquida, o déjala reposar a temperatura ambiente hasta 2 horas para que espese. Si la refrigeras para acelerar el proceso, remueve de vez en cuando.",
+                            "Una vez fría y espesa, la ganache se puede usar con manga pastelera o batir con varillas durante 4 minutos hasta que esté ligera y aireada.",
+                            "Guárdala tapada en el refrigerador hasta 5 días o congélala hasta 3 meses. Descongela en la nevera y recalienta al baño maría si necesitas que vuelva a estar líquida."
+                          ]
+                        },
                 }
             },
         recipe: {
