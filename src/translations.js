@@ -20,7 +20,7 @@ export const translations = {
             allItems: ['brownies', "spanishYogurtCake", 'ganache', 'bananaBread',], // Use the keys here, not the display names
             items: {
                 bananaBread: {
-                  name: 'Best Banana Bread',
+                  name: 'Banana Bread',
                   story: "A fan favorite, soft, delicious and full of potassium, this banana bread won't survive the night if left out on a counter.",
                   stats: {
                     prep: "25 mins",
@@ -157,7 +157,7 @@ export const translations = {
             allItems: ['brownies', "spanishYogurtCake", 'ganache', 'bananaBread'],
                 items: {
                     bananaBread: {
-                      name: 'El millor pa de plàtan',
+                      name: 'Pa de plàtan',
                       story: "Un dels preferits de tothom: suau, deliciós i ple de potassi; aquest pa de plàtan no sobreviurà ni una nit si el deixes al taulell.",
                       stats: {
                         prep: "25 min",
@@ -299,7 +299,7 @@ export const translations = {
             allItems: ['brownies', "spanishYogurtCake", 'ganache', 'bananaBread'],
                 items: {
                     bananaBread: {
-                      name: 'El mejor pan de plátano',
+                      name: 'Pan de plátano',
                       story: "Uno de los favoritos de todos: suave, delicioso y lleno de potasio; este pan de plátano no sobrevivirá ni una noche si lo dejas sobre la encimera.",
                       stats: {
                         prep: "25 min",

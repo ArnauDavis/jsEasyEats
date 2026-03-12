@@ -33,17 +33,12 @@ function AllRecipes({recipe}) {
   
   return (
     <>
+    <h2 className="opacity-60 tracking-wide font-semibold text-2xl pt-4 pl-8">{t('recipes.text1')}</h2>
     <ul className="list bg-base-100 rounded-box shadow-md p-4">
-  
-  <li className="p-4 pb-2 text-xs opacity-60 tracking-wide">{t('recipes.text1')}</li>
-  
-  {itemsToRender.map((key) => (
+      {itemsToRender.map((key) => (
           <Recipe key={key} recipeKey={key} />
         ))}
-  
-
-  
-</ul>
+    </ul>
     </>
   )
 }

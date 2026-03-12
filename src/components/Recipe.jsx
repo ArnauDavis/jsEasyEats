@@ -65,17 +65,17 @@ function Recipe({scrollToTop}) {
       <div className="stats stats-horizontal shadow mx-auto">
         <div className="stat px-2">
           <div className="stat-title">{t('recipe.text2')}</div>
-          <div className="stat-value">{recipeData.stats.prep}</div>
+          <div className="stat-value text-2xl">{recipeData.stats.prep}</div>
         </div>
 
         <div className="stat px-2">
           <div className="stat-title">{t('recipe.text4')}</div>
-          <div className="stat-value">{recipeData.stats.serves}</div>
+          <div className="stat-value text-2xl">{recipeData.stats.serves}</div>
         </div>
 
         <div className="stat px-2">
           <div className="stat-title">{t('recipe.text7')}</div>
-          <div className="stat-value">{recipeData.stats.cook}</div>
+          <div className="stat-value text-2xl">{recipeData.stats.cook}</div>
         </div>
       </div>
       </section> 
