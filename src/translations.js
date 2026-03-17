@@ -17,7 +17,7 @@ export const translations = {
         },
         recipes: {
             text1: "All current recipes",
-            allItems: ['brownies', "spanishYogurtCake", 'ganache', 'bananaBread',], // Use the keys here, not the display names
+            allItems: ['brownies', "spanishYogurtCake", 'ganache', 'bananaBread', 'oliveGardenSalmon'], // Use the keys here, not the display names
             items: {
                 bananaBread: {
                   name: 'Banana Bread',
@@ -119,7 +119,37 @@ export const translations = {
                         "Once completely cool and thick, the ganache can be piped, scooped, or beaten with a mixer for 4 minutes until light in color and texture.",
                         "Store covered in the refrigerator for up to 5 days or freeze for up to 3 months. Thaw in the refrigerator and rewarm over a double boiler if thinning is needed."
                       ]
-                    }  
+                    },
+                    oliveGardenSalmon: {
+                      name: 'Olive Garden Salmon',
+                      story: "Many ways to make salmon, here's one that'll make you feel like you're apart of the family.",
+                      stats: {
+                        prep: "15 mins",
+                        cook: "15 mins",
+                        serves: "4"
+                      },
+                      ingredients: [
+                        "4 Salmon Filets with the skin on",
+                        "4 tsp Olive Oil",
+                        "1 Lemon",
+                        "1 Tbsp Italian Seasoning",
+                        "1 tsp Salt",
+                        "½ tsp Pepper",
+                        "½ cup Unsalted Butter softened at room temperature",
+                        "2 tsp Minced Garlic",
+                        "1 tsp Fresh Parsley chopped"
+                      ],
+                      directions: [
+                        "Place the salmon fillets on a large plate.",
+                        "Squeeze the lemon juice on top and around the salmon fillets. Then season the salmon with the salt, pepper and Italian seasoning.",
+                        "Rub the seasonings into the salmon well on both sides.",
+                        "Allow the salmon to marinade for 10-15 minutes.",
+                        "Preheat the grill to 400 degrees F and rub some olive oil on the grill grates so that the salmon does not stick to the grill. Gently place the salmon on the grill, skin side down and brush the salmon with the oil on both sides.",
+                        "Close the lid and cook the salmon for 14-20 minutes until the salmon is flakey with a fork.",
+                        "For the Garlic Herb Butter: Stir together all the ingredients in a small bowl.",
+                        "Serve the salmon with the garlic butter on top and enjoy!"
+                      ]
+                    },  
             }
         },
         recipe: {
@@ -154,7 +184,7 @@ export const translations = {
         },
         recipes: {
             text1: "Totes les receptes actuals",
-            allItems: ['brownies', "spanishYogurtCake", 'ganache', 'bananaBread'],
+            allItems: ['brownies', "spanishYogurtCake", 'ganache', 'bananaBread', 'oliveGardenSalmon'],
                 items: {
                     bananaBread: {
                       name: 'Pa de plàtan',
@@ -264,6 +294,36 @@ export const translations = {
                             "Guardeu-la tapada a la nevera fins a 5 dies o al congelador fins a 3 mesos. Descongeleu-la a la nevera i torneu-la a escalfar al bany maria si cal estovar-la."
                           ]
                         },
+                        oliveGardenSalmon: {
+                          name: 'Salmó Olive Garden',
+                          story: "Hi ha moltes maneres de fer el salmó, aquí en teniu una que us farà sentir com si fóssiu part de la família.",
+                          stats: {
+                            prep: "15 min",
+                            cook: "15 min",
+                            serves: "4"
+                          },
+                          ingredients: [
+                            "4 filets de salmó amb pell",
+                            "4 culleradetes d'oli d'oliva",
+                            "1 llimona",
+                            "1 cullerada d'herbes aromàtiques (estil italià)",
+                            "1 culleradeta de sal",
+                            "½ culleradeta de pebre",
+                            "½ tassa de mantega sense sal, a temperatura ambient",
+                            "2 culleradetes d'all picat",
+                            "1 culleradeta de julivert fresc picat"
+                          ],
+                          directions: [
+                            "Poseu els filets de salmó en un plat gran.",
+                            "Expremeu el suc de llimona per sobre i al voltant dels filets. Amaniu el salmó amb la sal, el pebre i les herbes italianes.",
+                            "Fregueu bé els condiments pel salmó per ambdues bandes.",
+                            "Deixeu marinar el salmó durant 10-15 minuts.",
+                            "Precalenteu la graella a 200°C (400°F) i unteu les reixetes amb una mica d'oli d'oliva perquè el salmó no s'enganxi. Poseu el salmó a la graella amb la pell cap avall i pinteu-lo amb oli per ambdues bandes.",
+                            "Tanqueu la tapa i cuineu el salmó durant 14-20 minuts fins que s'esmicoli fàcilment amb una forquilla.",
+                            "Per a la mantega d'all i herbes: Barregeu tots els ingredients en un bol petit.",
+                            "Serviu el salmó amb la mantega d'all per sobre i gaudiu-ne!"
+                          ]
+                        },
                 }
             },
             recipe: {
@@ -296,7 +356,7 @@ export const translations = {
         },
         recipes: {
             text1: "Todas las recetas actuales",
-            allItems: ['brownies', "spanishYogurtCake", 'ganache', 'bananaBread'],
+            allItems: ['brownies', "spanishYogurtCake", 'ganache', 'bananaBread', 'oliveGardenSalmon'],
                 items: {
                     bananaBread: {
                       name: 'Pan de plátano',
@@ -404,6 +464,36 @@ export const translations = {
                             "Úsala de inmediato como cobertura líquida, o déjala reposar a temperatura ambiente hasta 2 horas para que espese. Si la refrigeras para acelerar el proceso, remueve de vez en cuando.",
                             "Una vez fría y espesa, la ganache se puede usar con manga pastelera o batir con varillas durante 4 minutos hasta que esté ligera y aireada.",
                             "Guárdala tapada en el refrigerador hasta 5 días o congélala hasta 3 meses. Descongela en la nevera y recalienta al baño maría si necesitas que vuelva a estar líquida."
+                          ]
+                        },
+                        oliveGardenSalmon: {
+                          name: 'Salmón Olive Garden',
+                          story: "Hay muchas formas de preparar el salmón, aquí tienes una que te hará sentir como si fueras parte de la familia.",
+                          stats: {
+                            prep: "15 min",
+                            cook: "15 min",
+                            serves: "4"
+                          },
+                          ingredients: [
+                            "4 filetes de salmón con piel",
+                            "4 cucharaditas de aceite de oliva",
+                            "1 limón",
+                            "1 cucharada de sazonador italiano",
+                            "1 cucharadita de sal",
+                            "½ cucharadita de pimienta",
+                            "½ taza de mantequilla sin sal, a temperatura ambiente",
+                            "2 cucharaditas de ajo picado",
+                            "1 cucharadita de perejil fresco picado"
+                          ],
+                          directions: [
+                            "Coloca los filetes de salmón en un plato grande.",
+                            "Exprime el jugo de limón encima y alrededor de los filetes. Luego, sazona el salmón con la sal, la pimienta y el sazonador italiano.",
+                            "Frota bien los condimentos en el salmón por ambos lados.",
+                            "Deja marinar el salmón durante 10-15 minutos.",
+                            "Precalienta la parrilla a 200°C (400°F) y frota un poco de aceite de oliva en las rejillas para que el salmón no se pegue. Coloca suavemente el salmón en la parrilla con la piel hacia abajo y pincela el salmón con aceite por ambos lados.",
+                            "Cierra la tapa y cocina el salmón durante 14-20 minutos hasta que se desmorone fácilmente con un tenedor.",
+                            "Para la mantequilla de ajo y hierbas: Mezcla todos los ingredientes en un tazón pequeño.",
+                            "¡Sirve el salmón con la mantequilla de ajo por encima y disfruta!"
                           ]
                         },
                 }
