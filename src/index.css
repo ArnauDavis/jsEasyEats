@@ -8,9 +8,9 @@
   --color-primary: oklch(76.59% 0.135 52.73);
   --color-primary-content: oklch(25% 0.05 52.73);
 
-  /* Accent: Sunset Accent (Pink/Lavender) */
-  --color-accent: oklch(80.17% 0.124 351.33);
-  --color-accent-content: oklch(25% 0.02 351.33);
+  /* Accent = Halloween's Green (The Slime Green value) */
+  --color-accent: oklch(81.04% 0.187 141.24);
+  --color-accent-content: oklch(20% 0.05 141.24);
 }
 
 
