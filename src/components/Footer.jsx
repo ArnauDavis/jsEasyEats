@@ -4,7 +4,7 @@ import { useLanguage } from '../LanguageProvider'
 function Footer() {
     const { t } = useLanguage()
   return (
-    <footer className="footer w-full flex flex-col items-center gap-6 p-6 bg-cusGreen text-white sm:flex-row sm:justify-between">
+    <footer className="footer w-full flex flex-col items-center gap-6 p-6 bg-primary text-white sm:flex-row sm:justify-between">
       <aside className="flex items-center gap-4">
         <svg
           width="36"

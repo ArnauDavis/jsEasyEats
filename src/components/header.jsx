@@ -7,7 +7,7 @@ function Header() {
   return (
     <div className="navbar shadow-sm w-full">
       <div className="flex-1">
-        <Link to="/" className=" text-xl text-cusGreen font-bold">easy eats</Link>
+        <Link to="/" className=" text-xl text-primary font-bold">easy eats</Link>
       </div>
       <div className="flex gap-2">
         <Search/>
@@ -20,12 +20,46 @@ function Header() {
             </div>
           </div>
               <ul tabIndex="-1" className="mt-2 dropdown-content menu bg-white rounded-box z-1 w-52 p-2 shadow-sm text-cusLightGrey">
-                <li className="hover:bg-cusGreen hover:text-white rounded-lg"><button onClick={() => setLang('en')}>English</button></li>
-                <li className="hover:bg-cusGreen hover:text-white rounded-lg"><button onClick={() => setLang('cat')}>Català</button></li>
-                <li className="hover:bg-cusGreen hover:text-white rounded-lg"><button onClick={() => setLang('es')}>Español</button></li>
+                <li className="hover:bg-primary hover:text-white rounded-lg"><button onClick={() => setLang('en')}>English</button></li>
+                <li className="hover:bg-primary hover:text-white rounded-lg"><button onClick={() => setLang('cat')}>Català</button></li>
+                <li className="hover:bg-primary hover:text-white rounded-lg"><button onClick={() => setLang('es')}>Español</button></li>
               </ul>
         </div>
       </div>
+      <label className="flex cursor-pointer gap-2 items-center">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round">
+          <circle cx="12" cy="12" r="5" />
+          <path d="M12 1v2M12 21v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M1 12h2M21 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4" />
+        </svg>
+        
+        <input
+          type="checkbox"
+          value="night"
+          className="toggle theme-controller"
+        />
+      
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+      </label>
     </div>
   )
 }

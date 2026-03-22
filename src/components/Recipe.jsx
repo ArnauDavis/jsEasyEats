@@ -10,7 +10,7 @@ function GalleryItem({img}){
   const images = recipeImages[recipename] || []
   return(
     <>
-  <div className="carousel-item border-2 rounded-xl lg:mx-auto">
+  <div className="carousel-item border-2 border-black rounded-xl lg:mx-auto">
     <img src={img}
       className="aspect-square w-64 object-cover rounded-lg" />
   </div>
@@ -52,8 +52,8 @@ function Recipe({scrollToTop}) {
           </Link>
         </section>
       <section className="px-4">
-      <h2 className="text-2xl font-bold text-gray-900 sm:text-3xl">{t('recipe.text1')} {recipeData.name}</h2>
-      <p className="mt-4 text-base text-pretty text-gray-700 sm:text-lg/relaxed ">{recipeData.story}</p>
+      <h2 className="text-2xl font-bold sm:text-3xl">{t('recipe.text1')} {recipeData.name}</h2>
+      <p className="mt-4 text-base text-pretty sm:text-lg/relaxed ">{recipeData.story}</p>
       </section>
       <div className="carousel carousel-center bg-[radial-gradient(circle,#FF5A5F_30%,#ffffff_100%)] lg:w-full space-x-4 p-4 ">
           {images.map((img, index) => (
@@ -61,8 +61,8 @@ function Recipe({scrollToTop}) {
           ))}
       </div>
       <section className="flex flex-col"> 
-        <span className="text-left sm:text-center pl-4 sm:pl-0 text-xl font-bold text-gray-900 sm:text-2xl pb-2">{t('recipe.text9')}</span>   
-      <div className="stats stats-horizontal shadow mx-auto">
+        <span className="text-left sm:text-center pl-4 sm:pl-0 text-xl font-bold sm:text-2xl pb-2">{t('recipe.text9')}</span>   
+      <div className="stats stats-horizontal shadow-md shadow-neutral/30 mx-auto">
         <div className="stat px-2">
           <div className="stat-title">{t('recipe.text2')}</div>
           <div className="stat-value text-2xl">{recipeData.stats.prep}</div>
@@ -81,16 +81,16 @@ function Recipe({scrollToTop}) {
       </section> 
 
       <section className="px-4 flex flex-col mx-0 sm:mx-auto">
-        <span className="text-left text-xl font-bold text-gray-900 sm:text-2xl pb-2">{t('recipe.text5')}</span>
+        <span className="text-left text-xl font-bold sm:text-2xl pb-2">{t('recipe.text5')}</span>
           <ul className="lg:columns-2 lg:gap-8">
             {recipeData.ingredients.map((ingredient,index)=>(
               <li key={index} className="py-4 break-inside-avoid-column">
                 <label className="relative flex items-center cursor-pointer group">
                   <input className="peer sr-only" type="checkbox" />
                   <div
-                    className="w-8 h-8 shrink-0 rounded-lg bg-white border-2 border-cusRed transition-all duration-300 ease-in-out peer-checked:bg-linear-to-br from-cusOrange to-pink-500 peer-checked:border-0 peer-checked:rotate-12 after:content-[''] after:absolute after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:w-5 after:h-5 after:opacity-0 after:bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cG9seWxpbmUgcG9pbnRzPSIyMCA2IDkgMTcgNCAxMiI+PC9wb2x5bGluZT48L3N2Zz4=')] after:bg-contain after:bg-no-repeat peer-checked:after:opacity-100 after:transition-opacity after:duration-300 hover:shadow-[0_0_15px_rgba(168,85,247,0.5)] relative"
+                    className="w-8 h-8 shrink-0 rounded-lg bg-white border-2 border-accent transition-all duration-300 ease-in-out peer-checked:bg-linear-to-br from-cusOrange to-pink-500 peer-checked:border-0 peer-checked:rotate-12 after:content-[''] after:absolute after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:w-5 after:h-5 after:opacity-0 after:bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cG9seWxpbmUgcG9pbnRzPSIyMCA2IDkgMTcgNCAxMiI+PC9wb2x5bGluZT48L3N2Zz4=')] after:bg-contain after:bg-no-repeat peer-checked:after:opacity-100 after:transition-opacity after:duration-300 hover:shadow-[0_0_15px_rgba(168,85,247,0.5)] relative"
                   ></div> 
-                  <span className="ml-3 text-sm font-medium text-gray-900"> {ingredient}</span>
+                  <span className="ml-3 text-sm font-medium"> {ingredient}</span>
                 </label>
               </li>
             ))}
@@ -106,17 +106,17 @@ function Recipe({scrollToTop}) {
                   
                   <input className="peer sr-only" type="checkbox" />
                   <div
-                    className="w-8 h-8 shrink-0 rounded-lg bg-white border-2 border-cusRed transition-all duration-300 ease-in-out peer-checked:bg-linear-to-br from-cusOrange to-pink-500 peer-checked:border-0 peer-checked:rotate-12 after:content-[''] after:absolute after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:w-5 after:h-5 after:opacity-0 after:bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cG9seWxpbmUgcG9pbnRzPSIyMCA2IDkgMTcgNCAxMiI+PC9wb2x5bGluZT48L3N2Zz4=')] after:bg-contain after:bg-no-repeat peer-checked:after:opacity-100 after:transition-opacity after:duration-300 hover:shadow-[0_0_15px_rgba(168,85,247,0.5)] relative"
+                    className="w-8 h-8 shrink-0 rounded-lg bg-white border-2 border-accent transition-all duration-300 ease-in-out peer-checked:bg-linear-to-br from-cusOrange to-pink-500 peer-checked:border-0 peer-checked:rotate-12 after:content-[''] after:absolute after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:w-5 after:h-5 after:opacity-0 after:bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cG9seWxpbmUgcG9pbnRzPSIyMCA2IDkgMTcgNCAxMiI+PC9wb2x5bGluZT48L3N2Zz4=')] after:bg-contain after:bg-no-repeat peer-checked:after:opacity-100 after:transition-opacity after:duration-300 hover:shadow-[0_0_15px_rgba(168,85,247,0.5)] relative"
                   ></div> 
-                  <span className="ml-3 font-bold text-cusGreen">{index + 1}</span>
-                  <span className="ml-3 text-sm font-medium text-gray-900"> {direction}</span>
+                  <span className="ml-3 font-bold text-primary">{index + 1}</span>
+                  <span className="ml-3 text-sm font-medium"> {direction}</span>
                 </label>
               </li>
             ))}
           </ol>
         </section>
         <section className="mx-auto">
-          <button className="cursor-pointer relative after:content-['scroll_to_top'] after:text-white after:absolute after:text-nowrap after:scale-0 hover:after:scale-100 after:duration-200 w-16 h-16 rounded-full border-4 border-sky-200 bg-cusGreen pointer flex items-center justify-center duration-300 hover:rounded-[50px] hover:w-36 group/button overflow-hidden active:scale-90"
+          <button className="cursor-pointer relative after:content-['scroll_to_top'] after:text-white after:absolute after:text-nowrap after:scale-0 hover:after:scale-100 after:duration-200 w-16 h-16 rounded-full border-4 border-sky-200 bg-primary pointer flex items-center justify-center duration-300 hover:rounded-[50px] hover:w-36 group/button overflow-hidden active:scale-90"
             onClick={() => scrollToTop()}>
             <svg className="w-3 fill-white delay-50 duration-200 group-hover/button:-translate-y-12" viewBox="0 0 384 512">
             <path
