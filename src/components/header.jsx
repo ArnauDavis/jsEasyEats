@@ -30,7 +30,7 @@ function Header() {
               </svg>
             </div>
           </div>
-          <ul tabIndex="-1" className="mt-3 dropdown-content menu bg-base-100 border border-base-200 rounded-box z-[100] w-48 p-2 shadow-xl text-base-content">
+          <ul tabIndex="-1" className="mt-3 dropdown-content menu bg-base-100 border border-base-200 rounded-box z-100 w-48 p-2 shadow-xl text-base-content">
             <li className="hover:bg-primary hover:text-white rounded-lg"><button onClick={() => setLang('en')}>English</button></li>
             <li className="hover:bg-primary hover:text-white rounded-lg"><button onClick={() => setLang('cat')}>Català</button></li>
             <li className="hover:bg-primary hover:text-white rounded-lg"><button onClick={() => setLang('es')}>Español</button></li>
