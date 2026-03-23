@@ -21,7 +21,7 @@ function Landing() {
       {/* Overlay for better text contrast */}
       <div className="hero-overlay bg-black/20"></div>
 
-      <div className="hero-content flex-col lg:flex-row-reverse w-full max-w-6xl p-6 gap-12 z-10">
+      <div className="hero-content flex-col-reverse lg:flex-row-reverse w-full max-w-6xl p-6 gap-12 z-10">
         
         {/* Image Side with a decorative "frame" effect */}
         <div className="relative group">
