@@ -1,16 +1,21 @@
 @import "tailwindcss";
 @plugin "daisyui" {
-  themes: emerald --default, night;
+  themes: emerald --default, dim;
  }
  @plugin "daisyui/theme" {
-  name: "night";
+  name: "dim";
   /* Primary: Emerald Accent (Orange-ish) */
   --color-primary: oklch(76.59% 0.135 52.73);
   --color-primary-content: oklch(25% 0.05 52.73);
 
+  /* Secondary = Retro's Primary (Vintage Rose Pink) */
+  --color-secondary: oklch(76.59% 0.135 7.36);
+  --color-secondary-content: oklch(25% 0.05 7.36);
+
   /* Accent = Halloween's Green (The Slime Green value) */
   --color-accent: oklch(81.04% 0.187 141.24);
   --color-accent-content: oklch(20% 0.05 141.24);
+
 }
 
 

@@ -43,7 +43,7 @@ function Header() {
         
         <input
           type="checkbox"
-          value="night"
+          value="dim"
           className="toggle theme-controller"
         />
       
