@@ -8,11 +8,11 @@ function Search() {
   const navigate = useNavigate()
 
   // Get the translation object for the current language
-  // We look specifically at the 'recipes.items' for the current lang
-  const recipesData = t('recipes.items')
+  // Looks specifically at the 'recipes.items' for the current lang
+  const recipesData = t('recipes.items') || {}
   
-  // Convert the object into an array we can filter
-  // This gives us: [{ id: 'brownies', name: 'Brownies', ... }, ...]
+  // Convert the object into an array in order to filter
+  // This gives: [{ id: 'brownies', name: 'Brownies', ... }, ...]
   const recipeList = Object.keys(recipesData).map(key => ({
     id: key,
     ...recipesData[key]
@@ -35,19 +35,19 @@ function Search() {
       <input
         type="text"
         placeholder={t('header.text1')}
-        className="w-full p-2 border rounded-lg shadow-sm"
+        className="input input-bordered w-full h-10 shadow-sm focus:outline-primary"
         value={query}
         onChange={(e) => setQuery(e.target.value)}
       />
 
       {/* Search Results Dropdown */}
       {filteredRecipes.length > 0 && (
-        <ul className="absolute z-10 w-full bg-white border rounded-b-lg shadow-xl mt-1">
+        <ul className="absolute z-110 w-full bg-base-100 border border-base-300 rounded-b-lg shadow-xl mt-1 max-h-60 overflow-y-auto">
           {filteredRecipes.map(recipe => (
             <li 
               key={recipe.id}
               onClick={() => handleSelect(recipe.id)}
-              className="p-3 hover:bg-gray-100 cursor-pointer border-b last:border-none"
+              className="p-3 hover:bg-primary hover:text-white cursor-pointer border-b border-base-200 last:border-none transition-colors"
             >
               {recipe.name}
             </li>
