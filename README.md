@@ -1,26 +1,31 @@
+# Easy Eats
+Family favorite recipes, all in one convenient spot!
+
 **Link to project:** https://js-easy-eats.vercel.app/
 
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<div style="height: 200px; overflow: hidden;">
+    <img src="src/assets/easyeats.gif" style="height: auto; width: 100%; object-fit: cover; transform: translateY(-30px);" alt="easyeats-gif"/>
+</div>
 
 
-things learned: 
+## How It's Made:
+
+**Tech used:** TailWind, DaisyUI, React
+
+
+
+
+## Optimizations
+
+
+
+
+## Lessons Learned:
+
 the limitless of variables that can be added to a url
 
 In tailwind, classes without prefixes apply to smaller screens first, using a prefix like sm apply as the screen gets larger
 
 A lot of multipaged projects sometimes don't render because it isn't refreshed from a sleeping state while still being on the '/routeForAbout' for example instead of on the '/' route. Using a vercel.json file, I can make sure all returning requests would be sent on the '/' route, very nice.
+
+In another project I learned about using themes in Daisy UI, here I learned how to set custom color values instead of just using default values.

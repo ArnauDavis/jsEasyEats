@@ -40,7 +40,7 @@ function RecipeCard({ recipeKey }) {
         
         {/* "View Recipe" label that appears on hover (Desktop) */}
         <div className="mt-2 text-xs font-bold uppercase tracking-widest text-secondary opacity-0 group-hover:opacity-100 transform translate-y-2 group-hover:translate-y-0 transition-all">
-          {t('recipe.text8')} →
+          {t('recipe.text1')} {recipeData.name} →
         </div>
       </div>
     </Link>
