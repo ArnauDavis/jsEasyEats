@@ -48,8 +48,8 @@ function Recipe({ scrollToTop }) {
         </section>
 
         {/* Header & Story Card */}
-        <section className="bg-base-100 p-6 rounded-3xl shadow-sm border border-base-300">
-          <h2 className="text-3xl text-accent font-black sm:text-4xl mb-4">
+        <section className="bg-base-100 p-6 rounded-3xl shadow-sm border border-base-300 transition-all duration-300">
+          <h2 className="text-3xl text-accent font-black sm:text-4xl mb-4 transition-all duration-300">
             {t('recipe.text1')} {recipeData.name}
           </h2>
           <p className="text-base text-pretty sm:text-lg/relaxed opacity-80 italic">
@@ -68,10 +68,10 @@ function Recipe({ scrollToTop }) {
 
         {/* Stats Section */}
         <section className="flex flex-col items-center w-full px-4">
-          <span className="text-xl text-primary font-bold sm:text-2xl pb-3">
+          <span className="text-xl text-primary font-bold sm:text-2xl pb-3 transition-all duration-300">
             {t('recipe.text9')}
           </span>   
-          <div className="stats stats-vertical md:stats-horizontal shadow-lg bg-base-100 border border-base-300 w-full max-w-xs md:max-md md:max-w-2xl">
+          <div className="stats stats-vertical md:stats-horizontal shadow-lg bg-base-100 border border-base-300 w-full max-w-xs md:max-md md:max-w-2xl transition-all duration-300">
 
             {/* Prep Time */}
             <div className="stat place-items-center py-2 md:py-4 px-4">
@@ -125,7 +125,7 @@ function Recipe({ scrollToTop }) {
         {/* Ingredients & Directions Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {/* Ingredients */}
-          <section className="bg-base-100 p-6 rounded-3xl shadow-sm border border-base-300">
+          <section className="bg-base-100 p-6 rounded-3xl shadow-sm border border-base-300 transition-all duration-300">
             <span className="text-xl text-primary font-bold sm:text-2xl block mb-4">{t('recipe.text5')}</span>
             <ul className="space-y-1">
               {recipeData.ingredients.map((ingredient, index) => (
@@ -147,22 +147,22 @@ function Recipe({ scrollToTop }) {
           </section>
 
           {/* Directions */}
-          <section className="bg-base-100 p-6 rounded-3xl shadow-sm border border-base-300">
-  <span className="text-xl font-bold text-primary sm:text-2xl block mb-4">{t('recipe.text6')}</span>
-  <ol className="space-y-4">
-    {recipeData.directions.map((direction, index) => (
-      <li key={index} className="flex items-center gap-4 py-2"> 
-        {/* flex items-center ensures the number and text stay vertically aligned */}
-        <div className="flex-none w-10 h-10 rounded-full bg-secondary text-secondary-content flex items-center justify-center font-bold shadow-sm border-2 border-white">
-          {index + 1}
-        </div>
-        <p className="text-sm font-medium leading-tight">
-          {direction}
-        </p>
-      </li>
-    ))}
-  </ol>
-</section>
+          <section className="bg-base-100 p-6 rounded-3xl shadow-sm border border-base-300 transition-all duration-300">
+            <span className="text-xl font-bold text-primary sm:text-2xl block mb-4">{t('recipe.text6')}</span>
+            <ol className="space-y-4">
+              {recipeData.directions.map((direction, index) => (
+                <li key={index} className="flex items-center gap-4 py-2"> 
+                  {/* flex items-center ensures the number and text stay vertically aligned */}
+                  <div className="flex-none w-10 h-10 rounded-full bg-secondary text-secondary-content flex items-center justify-center font-bold shadow-sm border-2 border-white transition-all duration-300">
+                    {index + 1}
+                  </div>
+                  <p className="text-sm font-medium leading-tight">
+                    {direction}
+                  </p>
+                </li>
+              ))}
+            </ol>
+          </section>
         </div>
 
         {/* Scroll to Top */}

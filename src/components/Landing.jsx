@@ -37,7 +37,7 @@ function Landing() {
         <div className="bg-white/80 backdrop-blur-md p-8 md:p-12 rounded-[2.5rem] shadow-2xl border border-white/20 max-w-2xl">
           <h1 className="text-4xl font-black sm:text-6xl text-neutral leading-tight">
             {t('landing.tag1')}
-            <span className="text-primary block sm:inline"> {t('landing.tag2')} </span>
+            <span className="text-primary block sm:inline transition-all duration-300"> {t('landing.tag2')} </span>
             {t('landing.tag3')}
           </h1>
           
@@ -48,14 +48,14 @@ function Landing() {
           <div className="mt-10 flex flex-wrap gap-4">
             <Link
               to="/allrecipes"
-              className="btn btn-primary btn-lg rounded-full px-8 shadow-lg hover:shadow-primary/30 transition-all border-none normal-case text-lg"
+              className="btn btn-primary btn-lg rounded-full px-8 shadow-lg hover:shadow-primary/30 transition-all duration-300 border-none normal-case text-lg"
             >
               {t('landing.button1')}
             </Link>          
             
             <Link
               to={`/recipe/${randomRecipe}`}
-              className="btn btn-accent btn-lg btn-outline rounded-full px-8 shadow-lg hover:bg-accent hover:text-white transition-all border-2 normal-case text-lg"
+              className="btn btn-accent btn-lg btn-outline rounded-full px-8 shadow-lg hover:bg-accent hover:text-white transition-all duration-300 border-2 normal-case text-lg"
             >
               {t('landing.button2')}
             </Link>

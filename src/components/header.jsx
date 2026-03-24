@@ -11,7 +11,7 @@ function Header() {
       
       {/* Logo Section */}
       <div className="flex-1">
-        <Link to="/" className="text-lg md:text-xl text-primary font-bold whitespace-nowrap">
+        <Link to="/" className="text-lg md:text-xl text-primary font-bold whitespace-nowrap transition-all duration-300">
           Easy Eats
         </Link>
       </div>
