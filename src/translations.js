@@ -17,8 +17,41 @@ export const translations = {
         },
         recipes: {
             text1: "All current recipes",
-            allItems: ['brownies', "spanishYogurtCake", 'ganache', 'bananaBread', 'oliveGardenSalmon'], // Use the keys here, not the display names
+            allItems: ['brownies', "spanishYogurtCake", 'ganache', 'bananaBread', 'oliveGardenSalmon', 'doubleChocolateChipMuffins'].sort(), // Use the keys here, not the display names
             items: {
+                doubleChocolateChipMuffins: {
+                name: 'Double Chocolate Chip Muffins',
+                story: "These double chocolate muffins are incredibly rich, mega chocolate-y, and loaded with chocolate chips in every single bite. Sour cream helps guarantee a soft and moist muffin that has a denser texture than chocolate cupcakes.",
+                stats: {
+                  prep: "10 mins",
+                  cook: "21 mins",
+                  serves: "12-14 muffins"
+                },
+                ingredients: [
+                  "2 cups (250g) all-purpose flour (spooned & leveled)",
+                  "1 cup (200g) granulated sugar",
+                  "1/2 cup (41g) unsweetened natural cocoa powder",
+                  "1 teaspoon baking soda",
+                  "1/2 teaspoon salt",
+                  "1 and 3/4 cups (315g) semi-sweet chocolate chips",
+                  "2 large eggs, at room temperature",
+                  "3/4 cup (185g) full fat sour cream or plain yogurt, at room temperature",
+                  "1/2 cup (120ml) vegetable oil*",
+                  "1/2 cup (120ml) whole milk, at room temperature",
+                  "1 and 1/2 teaspoons pure vanilla extract"
+                ],
+                directions: [
+                  "Preheat oven to 425°F (218°C). Spray a 12-count muffin pan with nonstick spray or use cupcake liners.",
+                  "Whisk the flour, sugar, cocoa powder, baking soda, salt, and chocolate chips together in a large bowl. Set aside.",
+                  "Whisk the eggs, sour cream, oil, milk, and vanilla extract together until combined.",
+                  "Pour wet ingredients into dry ingredients and fold together with a silicone spatula or wooden spoon until completely combined. Avoid overmixing.",
+                  "Spoon the batter into liners, filling them all the way to the top.",
+                  "Bake for 5 minutes at 425°F then, keeping the muffins in the oven, reduce the oven temperature to 350°F (177°C).",
+                  "Bake for an additional 15-16 minutes or until a toothpick inserted in the center comes out clean.",
+                  "Cool muffins for 10 minutes in the pan, then transfer to a wire rack until ready to eat.",
+                  "Note: For mini muffins, bake 13-14 total minutes at 350°F (177°C) the whole time. Cover leftovers and store at room temperature for 5 days or in the fridge for 1 week."
+                ]
+              },
                 bananaBread: {
                   name: 'Banana Bread',
                   story: "A fan favorite, soft, delicious and full of potassium, this banana bread won't survive the night if left out on a counter.",
@@ -184,8 +217,41 @@ export const translations = {
         },
         recipes: {
             text1: "Totes les receptes actuals",
-            allItems: ['brownies', "spanishYogurtCake", 'ganache', 'bananaBread', 'oliveGardenSalmon'],
+            allItems: ['brownies', "spanishYogurtCake", 'ganache', 'bananaBread', 'oliveGardenSalmon', 'doubleChocolateChipMuffins'].sort(),
                 items: {
+                    doubleChocolateChipMuffins: {
+                      name: 'Muffins de Doble Xocolata',
+                      story: "Aquests muffins de doble xocolata són increïblement rics, súper xocolatats i plens de xips de xocolata a cada mossegada. La crema agra garanteix un muffin suau i humit amb una textura més densa que la dels pastissets de xocolata.",
+                      stats: {
+                        prep: "10 min",
+                        cook: "21 min",
+                        serves: "12-14 muffins"
+                      },
+                      ingredients: [
+                        "2 tasses (250 g) de farina de blat",
+                        "1 tassa (200 g) de sucre granulat",
+                        "1/2 tassa (41 g) de cacau en pols natural sense sucre",
+                        "1 culleradeta de bicarbonat de sodi",
+                        "1/2 culleradeta de sal",
+                        "1 i 3/4 tasses (315 g) de xips de xocolata semidulça",
+                        "2 ous grans, a temperatura ambient",
+                        "3/4 de tassa (185 g) de crema agra o iogurt natural, a temperatura ambient",
+                        "1/2 tassa (120 ml) d'oli vegetal",
+                        "1/2 tassa (120 ml) de llet sencera, a temperatura ambient",
+                        "1 culleradeta i mitja d'extracte de vainilla pur"
+                      ],
+                      directions: [
+                        "Preescalfeu el forn a 218°C (425°F). Prepareu un motlle per a 12 muffins amb esprai antiadherent o motlles de paper.",
+                        "En un bol gran, barregeu la farina, el sucre, el cacau, el bicarbonat, la sal i les xips de xocolata. Reserveu-ho.",
+                        "En un altre bol, bateu els ous, la crema agra, l'oli, la llet i la vainilla fins que estiguin ben combinats.",
+                        "Aboqueu els ingredients líquids sobre els secs i barregeu-ho amb una espàtula de silicona fins que estigui homogeni. Eviteu barrejar massa; la massa serà espessa.",
+                        "Ompliu els motlles amb la massa fins a dalt de tot.",
+                        "Enforneu durant 5 minuts a 218°C; després, sense treure els muffins del forn, baixeu la temperatura a 177°C (350°F).",
+                        "Enforneu durant 15-16 minuts addicionals o fins que un escuradents surti net.",
+                        "Deixeu refredar els muffins 10 minuts al motlle i després passeu-los a una reixeta.",
+                        "Nota: Per a muffins petits, enforneu 13-14 minuts a 177°C. Es poden guardar a temperatura ambient 5 dies o a la nevera una setmana."
+                      ]
+                    },
                     bananaBread: {
                       name: 'Pa de plàtan',
                       story: "Un dels preferits de tothom: suau, deliciós i ple de potassi; aquest pa de plàtan no sobreviurà ni una nit si el deixes al taulell.",
@@ -356,8 +422,41 @@ export const translations = {
         },
         recipes: {
             text1: "Todas las recetas actuales",
-            allItems: ['brownies', "spanishYogurtCake", 'ganache', 'bananaBread', 'oliveGardenSalmon'],
+            allItems: ['brownies', "spanishYogurtCake", 'ganache', 'bananaBread', 'oliveGardenSalmon', 'doubleChocolateChipMuffins'].sort(),
                 items: {
+                  doubleChocolateChipMuffins: {
+                    name: 'Muffins de Doble Chocolate',
+                    story: "Estos muffins de doble chocolate son increíblemente ricos, súper chocolatosos y están llenos de pepitas de chocolate en cada bocado. La crema agria garantiza un muffin suave y húmedo con una textura más densa que la de un cupcake tradicional.",
+                    stats: {
+                      prep: "10 min",
+                      cook: "21 min",
+                      serves: "12-14 muffins"
+                    },
+                    ingredients: [
+                      "2 tazas (250 g) de harina de trigo todo uso",
+                      "1 taza (200 g) de azúcar granulada",
+                      "1/2 taza (41 g) de cacao en polvo natural sin azúcar",
+                      "1 cucharadita de bicarbonato de sodio",
+                      "1/2 cucharadita de sal",
+                      "1 y 3/4 tazas (315 g) de pepitas de chocolate semidulce",
+                      "2 huevos grandes, a temperatura ambiente",
+                      "3/4 de taza (185 g) de crema agria o yogur natural, a temperatura ambiente",
+                      "1/2 taza (120 ml) de aceite vegetal",
+                      "1/2 taza (120 ml) de leche entera, a temperatura ambiente",
+                      "1 y 1/2 cucharaditas de extracto de vainilla puro"
+                    ],
+                    directions: [
+                      "Precalienta el horno a 218°C (425°F). Engrasa un molde para 12 muffins o usa cápsulas de papel.",
+                      "En un bol grande, mezcla la harina, el azúcar, el cacao, el bicarbonato, la sal y las pepitas de chocolate. Reserva.",
+                      "En otro bol, bate los huevos, la crema agria, el aceite, la leche y la vainilla hasta que estén bien integrados.",
+                      "Vierte los ingredientes húmedos sobre los secos y mezcla con una espátula de silicona hasta que se combinen por completo. Evita batir de más; la masa será espesa.",
+                      "Llena los moldes con la masa hasta el borde.",
+                      "Hornea durante 5 minutos a 218°C; luego, sin sacar los muffins del horno, baja la temperatura a 177°C (350°F).",
+                      "Hornea durante 15-16 minutos adicionales o hasta que al insertar un palillo, este salga limpio.",
+                      "Deja enfriar los muffins en el molde durante 10 minutos y luego pásalos a una rejilla.",
+                      "Nota: Para muffins mini, hornea 13-14 minutos en total a 177°C. Puedes guardarlos a temperatura ambiente por 5 días o en el refrigerador por una semana."
+                    ]
+                  },
                     bananaBread: {
                       name: 'Pan de plátano',
                       story: "Uno de los favoritos de todos: suave, delicioso y lleno de potasio; este pan de plátano no sobrevivirá ni una noche si lo dejas sobre la encimera.",
