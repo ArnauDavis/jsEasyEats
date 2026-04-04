@@ -21,8 +21,36 @@ export const translations = {
         },
         recipes: {
             text1: "All current recipes",
-            allItems: ['brownies', "spanishYogurtCake", 'ganache', 'bananaBread', 'oliveGardenSalmon', 'doubleChocolateChipMuffins','corianderCrustedSalmon'].sort(), // Use the keys here, not the display names
+            allItems: ['brownies', "spanishYogurtCake", 'ganache', 'bananaBread', 'oliveGardenSalmon', 'doubleChocolateChipMuffins','corianderCrustedSalmon','panSearedHaddock'].sort(), // Use the keys here, not the display names
             items: {
+              panSearedHaddock: {
+                name: 'Pan-Seared Haddock with White Wine Garlic Butter Sauce',
+                story: "This dish showcases high-quality ingredients beautifully—a classic, elegant preparation that is quick, impressive, and bursting with bright, sophisticated flavors.",
+                stats: {
+                  prep: "10 mins",
+                  cook: "10 mins",
+                  serves: 2
+                },
+                ingredients: [
+                  "2 haddock fillets (about 6 oz each)",
+                  "3 cloves garlic, minced",
+                  "1/2 cup white wine",
+                  "1/4 cup fresh parsley, chopped",
+                  "3 tbsp butter",
+                  "2 tbsp olive oil",
+                  "Salt and pepper to taste",
+                  "Lemon wedges for serving"
+                ],
+                directions: [
+                  "Pat the haddock fillets dry with paper towels. Season both sides generously with salt and pepper.",
+                  "Heat olive oil in a large skillet over medium-high heat until shimmering.",
+                  "Place the fillets in the pan and sear for 3-4 minutes until golden brown. Flip and cook for another 2-3 minutes until the fish is opaque and flakes easily. Remove to a plate.",
+                  "Reduce heat to medium. Add the butter to the same skillet. Once melted, add the minced garlic and sauté for 30 seconds until fragrant.",
+                  "Pour in the white wine and let it simmer for 2-3 minutes, scraping up any browned bits from the bottom of the pan.",
+                  "Stir in the chopped parsley. Spoon the sauce over the haddock fillets.",
+                  "Garnish with lemon wedges and serve immediately."
+                ]
+              },
               corianderCrustedSalmon: {
                   name: 'Coriander-Crusted Salmon',
                   story: "This dish is a flavor powerhouse; the earthy, citrusy punch of the coriander crust creates a bold, aromatic experience that perfectly complements the rich salmon.",
@@ -249,8 +277,36 @@ export const translations = {
         },
         recipes: {
             text1: "Totes les receptes actuals",
-            allItems: ['brownies', "spanishYogurtCake", 'ganache', 'bananaBread', 'oliveGardenSalmon', 'doubleChocolateChipMuffins','corianderCrustedSalmon'].sort(),
+            allItems: ['brownies', "spanishYogurtCake", 'ganache', 'bananaBread', 'oliveGardenSalmon', 'doubleChocolateChipMuffins','corianderCrustedSalmon', 'panSearedHaddock'].sort(),
                 items: {
+                  panSearedHaddock: {
+                    name: 'Lluç al Forn amb Salsa de Mantega, All i Vi Blanc',
+                    story: "Aquest plat destaca els ingredients de qualitat de manera preciosa; una preparació clàssica i elegant que és ràpida, impressionant i plena de sabors brillants i sofisticats.",
+                    stats: {
+                      prep: "10 min",
+                      cook: "10 min",
+                      serves: 2
+                    },
+                    ingredients: [
+                      "2 filets de lluç (uns 170 g cada un)",
+                      "3 grans d'all, picats",
+                      "1/2 tassa de vi blanc",
+                      "1/4 de tassa de julivert fresc, picat",
+                      "3 cullerades de mantega",
+                      "2 cullerades d'oli d'oliva",
+                      "Sal i pebre al gust",
+                      "Rodanxes de llimona per servir"
+                    ],
+                    directions: [
+                      "Assequeu els filets de lluç amb paper de cuina. Salpebreu els dos costats generosament.",
+                      "Escalfeu l'oli d'oliva en una paella gran a foc mitjà-alt.",
+                      "Coeu els filets a la paella durant 3-4 minuts fins que estiguin daurats. Gireu-los i coeu-los 2-3 minuts més fins que el peix sigui opac. Retireu-los a un plat.",
+                      "Baixeu el foc a mitjà. Afegiu la mantega a la mateixa paella. Quan estigui desfeta, afegiu l'all picat i salteu-lo 30 segons.",
+                      "Aboqueu el vi blanc i deixeu-ho coure a foc lent 2-3 minuts, rascant el fons de la paella per desglassar.",
+                      "Incorporeu el julivert picat. Aboqueu la salsa per sobre dels filets de lluç.",
+                      "Decoreu amb rodanxes de llimona i serviu immediatament."
+                    ]
+                  },
                   corianderCrustedSalmon: {
                     name: 'Salmó amb Crosta de Coriandre',
                     story: "Aquest plat és una explosió de sabor; el toc terrós i cítric de la crosta de coriandre crea una experiència aromàtica i intensa que complementa perfectament el gust del salmó.",
@@ -482,8 +538,36 @@ export const translations = {
         },
         recipes: {
             text1: "Todas las recetas actuales",
-            allItems: ['brownies', "spanishYogurtCake", 'ganache', 'bananaBread', 'oliveGardenSalmon', 'doubleChocolateChipMuffins','corianderCrustedSalmon'].sort(),
+            allItems: ['brownies', "spanishYogurtCake", 'ganache', 'bananaBread', 'oliveGardenSalmon', 'doubleChocolateChipMuffins','corianderCrustedSalmon', 'panSearedHaddock'].sort(),
                 items: {
+                  panSearedHaddock: {
+                    name: 'Eglefino Sellado con Salsa de Mantequilla al Ajillo y Vino Blanco',
+                    story: "Este plato resalta los ingredientes de calidad de forma hermosa; una preparación clásica y elegante que es rápida, impresionante y rebosa sabores vibrantes y sofisticados.",
+                    stats: {
+                      prep: "10 min",
+                      cook: "10 min",
+                      serves: 2
+                    },
+                    ingredients: [
+                      "2 filetes de eglefino o bacalao (unos 170 g cada uno)",
+                      "3 dientes de ajo, picados",
+                      "1/2 taza de vino blanco",
+                      "1/4 de taza de perejil fresco, picado",
+                      "3 cucharadas de mantequilla",
+                      "2 cucharadas de aceite de oliva",
+                      "Sal y pimienta al gusto",
+                      "Rodajas de limón para servir"
+                    ],
+                    directions: [
+                      "Seca los filetes con papel de cocina. Salpimienta ambos lados generosamente.",
+                      "Calienta el aceite de oliva en una sartén grande a fuego medio-alto.",
+                      "Sella los filetes durante 3-4 minutos hasta que estén dorados. Voltea y cocina otros 2-3 minutos hasta que el pescado esté opaco. Retira a un plato.",
+                      "Reduce el fuego a medio. Añade la mantequilla a la misma sartén. Una vez derretida, añade el ajo y saltea 30 segundos.",
+                      "Vierte el vino blanco y deja reducir 2-3 minutos, raspando el fondo de la sartén para soltar los jugos.",
+                      "Incorpora el perejil picado. Vierte la salsa sobre los filetes.",
+                      "Decora con rodajas de limón y sirve inmediatamente."
+                    ]
+                  },
                   corianderCrustedSalmon: {
                     name: 'Salmón con Costra de Cilantro',
                     story: "Este plato es una explosión de sabor; el toque terroso y cítrico de la costra de semilla de cilantro crea una experiencia aromática e intensa que complementa perfectamente la riqueza del salmón.",
