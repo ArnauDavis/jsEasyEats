@@ -13,15 +13,43 @@ export const translations = {
         },
         footer: {
             text1: "Copyright",
-            text2: "All rights reserved"
+            text2: "All rights reserved",
+            text3: "QUICK LINKS",
+            text4: "Home",
+            text5: "All Recipes",
+            text6: "Random Recipe"
         },
         recipes: {
             text1: "All current recipes",
-            allItems: ['brownies', "spanishYogurtCake", 'ganache', 'bananaBread', 'oliveGardenSalmon', 'doubleChocolateChipMuffins'].sort(), // Use the keys here, not the display names
+            allItems: ['brownies', "spanishYogurtCake", 'ganache', 'bananaBread', 'oliveGardenSalmon', 'doubleChocolateChipMuffins','corianderCrustedSalmon'].sort(), // Use the keys here, not the display names
             items: {
+              corianderCrustedSalmon: {
+                  name: 'Coriander-Crusted Salmon',
+                  story: "This dish is a flavor powerhouse; the earthy, citrusy punch of the coriander crust creates a bold, aromatic experience that perfectly complements the rich salmon.",
+                  stats: {
+                    prep: "10 mins",
+                    cook: "10 mins",
+                    serves: 4
+                  },
+                  ingredients: [
+                    "3 tablespoons ground coriander (or cumin)",
+                    "1/2 teaspoon kosher salt",
+                    "1 teaspoon pepper",
+                    "4 salmon fillets, skin removed (1 1/2 lb)",
+                    "2 tablespoons olive oil"
+                  ],
+                  directions: [
+                    "Preheat a large sauté pan on medium-high for 2-5 minutes.",
+                    "In a small bowl, combine the coriander, salt, and pepper.",
+                    "Coat both sides of the salmon fillets evenly with the spice mixture.",
+                    "Add the olive oil to the pan, then add the salmon.",
+                    "Cook for 3-4 minutes on each side, or until the internal temperature reaches 145°F and the fish flakes easily with a fork.",
+                    "Serve immediately."
+                  ]
+                },
                 doubleChocolateChipMuffins: {
                 name: 'Double Chocolate Chip Muffins',
-                story: "These double chocolate muffins are incredibly rich, mega chocolate-y, and loaded with chocolate chips in every single bite. Sour cream helps guarantee a soft and moist muffin that has a denser texture than chocolate cupcakes.",
+                story: "These double chocolate muffins are incredibly rich, mega chocolate-y, and loaded with chocolate chips in every single bite.",
                 stats: {
                   prep: "10 mins",
                   cook: "21 mins",
@@ -33,10 +61,10 @@ export const translations = {
                   "1/2 cup (41g) unsweetened natural cocoa powder",
                   "1 teaspoon baking soda",
                   "1/2 teaspoon salt",
-                  "1 and 3/4 cups (315g) semi-sweet chocolate chips",
+                  "2 cups (360g) semi-sweet chocolate chips",
                   "2 large eggs, at room temperature",
-                  "3/4 cup (185g) full fat sour cream or plain yogurt, at room temperature",
-                  "1/2 cup (120ml) vegetable oil*",
+                  "3/4 cup (185g) plain yogurt or full fat sour cream, at room temperature",
+                  "1/2 cup (120ml) olive oil",
                   "1/2 cup (120ml) whole milk, at room temperature",
                   "1 and 1/2 teaspoons pure vanilla extract"
                 ],
@@ -213,15 +241,43 @@ export const translations = {
         },
         footer: {
             text1: "Propietat intel·lectual",
-            text2: "Tots els drets reservats"
+            text2: "Tots els drets reservats",
+            text3: "ENLLAÇOS RÀPIDS",
+            text4: "Inici",
+            text5: "Totes les receptes",
+            text6: "Recepta aleatòria"
         },
         recipes: {
             text1: "Totes les receptes actuals",
-            allItems: ['brownies', "spanishYogurtCake", 'ganache', 'bananaBread', 'oliveGardenSalmon', 'doubleChocolateChipMuffins'].sort(),
+            allItems: ['brownies', "spanishYogurtCake", 'ganache', 'bananaBread', 'oliveGardenSalmon', 'doubleChocolateChipMuffins','corianderCrustedSalmon'].sort(),
                 items: {
+                  corianderCrustedSalmon: {
+                    name: 'Salmó amb Crosta de Coriandre',
+                    story: "Aquest plat és una explosió de sabor; el toc terrós i cítric de la crosta de coriandre crea una experiència aromàtica i intensa que complementa perfectament el gust del salmó.",
+                    stats: {
+                      prep: "10 min",
+                      cook: "10 min",
+                      serves: 4
+                    },
+                    ingredients: [
+                      "3 cullerades de coriandre molt (o comí)",
+                      "1/2 culleradeta de sal kosher",
+                      "1 culleradeta de pebre",
+                      "4 filets de salmó, sense pell (680 g)",
+                      "2 cullerades d'oli d'oliva"
+                    ],
+                    directions: [
+                      "Preescalfeu una paella gran a foc mitjà-alt durant 2-5 minuts.",
+                      "En un bol petit, barregi el coriandre, la sal i el pebre.",
+                      "Arrebosseu els dos costats dels filets de salmó amb la barreja d'espècies.",
+                      "Poseu l'oli a la paella i afegiu-hi el salmó.",
+                      "Cuineu-lo durant 3-4 minuts per cada costat o fins que arribi a 63°C (145°F) i el peix s'esmicoli fàcilment.",
+                      "Serviu-lo."
+                    ]
+                  },
                     doubleChocolateChipMuffins: {
                       name: 'Muffins de Doble Xocolata',
-                      story: "Aquests muffins de doble xocolata són increïblement rics, súper xocolatats i plens de xips de xocolata a cada mossegada. La crema agra garanteix un muffin suau i humit amb una textura més densa que la dels pastissets de xocolata.",
+                      story: "Aquests muffins de doble xocolata són increïblement rics, súper xocolatats i estan plens de xips de xocolata a cada mossegada.",
                       stats: {
                         prep: "10 min",
                         cook: "21 min",
@@ -233,10 +289,10 @@ export const translations = {
                         "1/2 tassa (41 g) de cacau en pols natural sense sucre",
                         "1 culleradeta de bicarbonat de sodi",
                         "1/2 culleradeta de sal",
-                        "1 i 3/4 tasses (315 g) de xips de xocolata semidulça",
+                        "2 tasses (360 g) de xips de xocolata semidulça",
                         "2 ous grans, a temperatura ambient",
-                        "3/4 de tassa (185 g) de crema agra o iogurt natural, a temperatura ambient",
-                        "1/2 tassa (120 ml) d'oli vegetal",
+                        "3/4 de tassa (185 g) de iogurt natural o crema agra, a temperatura ambient",
+                        "1/2 tassa (120 ml) d'oli d'oliva",
                         "1/2 tassa (120 ml) de llet sencera, a temperatura ambient",
                         "1 culleradeta i mitja d'extracte de vainilla pur"
                       ],
@@ -418,15 +474,43 @@ export const translations = {
             button2: "Ver una receta al azar",
         },footer: {
             text1: "Propiedad intelectual",
-            text2: "Todos los derechos reservados"
+            text2: "Todos los derechos reservados",
+            text3: "ENLACES RÁPIDOS",
+            text4: "Inicio",
+            text5: "Todas las recetas",
+            text6: "Receta aleatoria"
         },
         recipes: {
             text1: "Todas las recetas actuales",
-            allItems: ['brownies', "spanishYogurtCake", 'ganache', 'bananaBread', 'oliveGardenSalmon', 'doubleChocolateChipMuffins'].sort(),
+            allItems: ['brownies', "spanishYogurtCake", 'ganache', 'bananaBread', 'oliveGardenSalmon', 'doubleChocolateChipMuffins','corianderCrustedSalmon'].sort(),
                 items: {
+                  corianderCrustedSalmon: {
+                    name: 'Salmón con Costra de Cilantro',
+                    story: "Este plato es una explosión de sabor; el toque terroso y cítrico de la costra de semilla de cilantro crea una experiencia aromática e intensa que complementa perfectamente la riqueza del salmón.",
+                    stats: {
+                      prep: "10 min",
+                      cook: "10 min",
+                      serves: 4
+                    },
+                    ingredients: [
+                      "3 cucharadas de cilantro molido (semilla) o comino",
+                      "1/2 cucharadita de sal kosher",
+                      "1 cucharadita de pimienta",
+                      "4 filetes de salmón, sin piel (680 g)",
+                      "2 cucharadas de aceite de oliva"
+                    ],
+                    directions: [
+                      "Precalienta una sartén grande a fuego medio-alto durante 2-5 minutos.",
+                      "En un cuenco pequeño, combina el cilantro, la sal y la pimienta.",
+                      "Cubre ambos lados de los filetes de salmón con la mezcla de especias.",
+                      "Añade el aceite a la sartén y luego incorpora el salmón.",
+                      "Cocina de 3 a 4 minutos por cada lado o hasta que alcance los 63°C (145°F) y el pescado se desmorone fácilmente con un tenedor.",
+                      "Sirve inmediatamente."
+                    ]
+                  },
                   doubleChocolateChipMuffins: {
                     name: 'Muffins de Doble Chocolate',
-                    story: "Estos muffins de doble chocolate son increíblemente ricos, súper chocolatosos y están llenos de pepitas de chocolate en cada bocado. La crema agria garantiza un muffin suave y húmedo con una textura más densa que la de un cupcake tradicional.",
+                    story: "Estos muffins de doble chocolate son increíblemente ricos, súper chocolatosos y están llenos de pepitas de chocolate en cada bocado.",
                     stats: {
                       prep: "10 min",
                       cook: "21 min",
@@ -438,10 +522,10 @@ export const translations = {
                       "1/2 taza (41 g) de cacao en polvo natural sin azúcar",
                       "1 cucharadita de bicarbonato de sodio",
                       "1/2 cucharadita de sal",
-                      "1 y 3/4 tazas (315 g) de pepitas de chocolate semidulce",
+                      "2 tazas (360 g) de pepitas de chocolate semidulce",
                       "2 huevos grandes, a temperatura ambiente",
-                      "3/4 de taza (185 g) de crema agria o yogur natural, a temperatura ambiente",
-                      "1/2 taza (120 ml) de aceite vegetal",
+                      "3/4 de taza (185 g) de yogur natural o crema agria, a temperatura ambiente",
+                      "1/2 taza (120 ml) de aceite de oliva",
                       "1/2 taza (120 ml) de leche entera, a temperatura ambiente",
                       "1 y 1/2 cucharaditas de extracto de vainilla puro"
                     ],

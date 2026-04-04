@@ -33,7 +33,7 @@ function App() {
           <Header/> 
           <Routes>
           <Route path="/" element={<Landing />} />
-          <Route path="/allrecipes" element={<AllRecipes />} />
+          <Route path="/allrecipes" element={<AllRecipes scrollToTop={scrollToTop} />} />
           <Route path="/recipe/:recipename" element={<Recipe scrollToTop={scrollToTop}/>}/>
           </Routes>
           <Footer/>
