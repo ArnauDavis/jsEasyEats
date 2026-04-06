@@ -169,7 +169,7 @@ export const translations = {
                     },
                     ingredients: [
                       "1 natural or lemon yogurt",
-                      "1 yogurt container measure of sunflower oil",
+                      "1 yogurt container measure of olive oil",
                       "2 yogurt container measures of sugar",
                       "3 yogurt container measures of flour",
                       "1 packet of Royal-style baking powder (16g)",
@@ -178,7 +178,7 @@ export const translations = {
                       "Butter for greasing the mold"
                     ],
                     directions: [
-                      "Preheat the oven to 180°C",
+                      "Preheat the oven to 350°F",
                       "In a bowl, add the eggs and sugar and beat well. Add the yogurt and then the oil, continuing to beat the mixture.",
                       "Gradually incorporate the sifted flour mixed with the baking powder, stirring until there are no lumps.",
                       "Add the lemon zest to the batter.",
@@ -432,7 +432,7 @@ export const translations = {
                           },
                           ingredients: [
                             "1 iogurt natural o de llimona",
-                            "1 mesura del got de iogurt d'oli de gira-sol",
+                            "1 mesura del got de iogurt d'oli d'oliva",
                             "2 mesures del got de iogurt de sucre",
                             "3 mesures del got de iogurt de farina",
                             "1 sobre de llevat tipus Royal (16g)",
@@ -693,7 +693,7 @@ export const translations = {
                           },
                           ingredients: [
                             "1 yogur natural o de limón",
-                            "1 medida del vasito de yogur de aceite de girasol",
+                            "1 medida del vaso de yogur de aceite de oliva",
                             "2 medidas del vasito de yogur de azúcar",
                             "3 medidas del vasito de yogur de harina",
                             "1 sobre de levadura tipo Royal (16g)",
