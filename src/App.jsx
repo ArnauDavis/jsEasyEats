@@ -18,6 +18,7 @@ function ScrollToTop() {
   return null
 }
 
+//for button on bottom of pages to scroll to top
 function scrollToTop() {
     window.scrollTo(0, 0);
   }
