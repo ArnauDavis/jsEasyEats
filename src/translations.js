@@ -21,8 +21,39 @@ export const translations = {
         },
         recipes: {
             text1: "All current recipes",
-            allItems: ['brownies', "spanishYogurtCake", 'ganache', 'bananaBread', 'oliveGardenSalmon', 'doubleChocolateChipMuffins','corianderCrustedSalmon','panSearedHaddock'].sort(), // Use the keys here, not the display names
+            allItems: ['brownies', "spanishYogurtCake", 'ganache', 'bananaBread', 'oliveGardenSalmon', 'doubleChocolateChipMuffins','corianderCrustedSalmon','panSearedHaddock', 'mashedPotatoesWithPeas'].sort(), // Use the keys here, not the display names
             items: {
+              mashedPotatoesWithPeas: {
+                name: 'Mashed Potatoes with Peas',
+                story: "A comforting, rustic side dish that combines creamy mashed red potatoes with tender peas and savory seasonings for a hearty, homestyle favorite.",
+                stats: {
+                  prep: "5 mins",
+                  cook: "30 mins",
+                  serves: 8
+                },
+                ingredients: [
+                  "10 red potatoes",
+                  "10 oz peas",
+                  "1 1/2 cups milk",
+                  "2 tsp butter",
+                  "Garlic powder to taste",
+                  "Black pepper to taste",
+                  "Thyme leaves to taste",
+                  "Onion powder to taste",
+                  "Chives to taste",
+                  "Italian seasoning to taste"
+                ],
+                directions: [
+                  "Cut the potatoes into relatively equal-sized pieces. Leave the skin on if desired for extra flavor and texture.",
+                  "Bring a large pot of salted water to a boil. Add the potatoes and cook for at least 20 minutes, or until very soft and fork-tender. Drain well.",
+                  "In the same pot, boil the peas for about 8 minutes, adjusting the time depending on your preferred texture. Drain thoroughly.",
+                  "Tip: To save on dishes, boil the potatoes first, drain them, then reuse the same pot for the peas before combining everything together.",
+                  "Butter the bottom of the pot, then return the potatoes and peas to the pot.",
+                  "Add garlic powder, black pepper, thyme leaves, onion powder, chives, and Italian seasoning while mashing the potatoes and peas together.",
+                  "Once mostly mashed, gradually pour in the milk while continuing to mix until smooth and creamy.",
+                  "Taste and adjust seasonings if needed. Serve warm and enjoy!"
+                ]
+              },
               panSearedHaddock: {
                 name: 'Pan-Seared Haddock with White Wine Garlic Butter Sauce',
                 story: "This dish showcases high-quality ingredients beautifully—a classic, elegant preparation that is quick, impressive, and bursting with bright, sophisticated flavors.",
@@ -277,8 +308,39 @@ export const translations = {
         },
         recipes: {
             text1: "Totes les receptes actuals",
-            allItems: ['brownies', "spanishYogurtCake", 'ganache', 'bananaBread', 'oliveGardenSalmon', 'doubleChocolateChipMuffins','corianderCrustedSalmon', 'panSearedHaddock'].sort(),
+            allItems: ['brownies', "spanishYogurtCake", 'ganache', 'bananaBread', 'oliveGardenSalmon', 'doubleChocolateChipMuffins','corianderCrustedSalmon', 'panSearedHaddock', 'mashedPotatoesWithPeas'].sort(),
                 items: {
+                  mashedPotatoesWithPeas: {
+                    name: 'Puré de Patates amb Pèsols',
+                    story: "Un acompanyament reconfortant i rústic que combina patates vermelles suaus amb pèsols tendres i condiments aromàtics per un plat casolà i deliciós.",
+                    stats: {
+                      prep: "5 min",
+                      cook: "30 min",
+                      serves: 8
+                    },
+                    ingredients: [
+                      "10 patates vermelles (uns 2 kg)",
+                      "280 g de pèsols",
+                      "375 ml de llet",
+                      "30 g de mantega",
+                      "All en pols al gust",
+                      "Pebre negre al gust",
+                      "Fulles de farigola al gust",
+                      "Ceba en pols al gust",
+                      "Ceba tendra (cibulet) al gust",
+                      "Orenga italiana al gust"
+                    ],
+                    directions: [
+                      "Talleu les patates en trossos relativament iguals. Podeu deixar la pell per més sabor i textura.",
+                      "Bulliu les patates en una olla gran amb aigua i sal durant uns 20 minuts o fins que estiguin ben tendres. Escorreu bé.",
+                      "En la mateixa olla, bulliu els pèsols durant uns 8 minuts, segons la textura que preferiu. Escorreu-los bé.",
+                      "Consell: Per estalviar plats, bulliu primer les patates, escorreu-les, i després reutilitzeu la mateixa olla per bullir els pèsols abans de barrejar-ho tot.",
+                      "Engreixeu el fons de l'olla amb mantega i torneu-hi les patates i els pèsols.",
+                      "Afegiu all en pols, pebre negre, farigola, ceba en pols, cibulet i orenga italiana mentre tritureu les patates i els pèsols junts.",
+                      "Quan estiguin parcialment triturats, afegiu la llet a poc a poc i barregeu fins aconseguir una textura suau i cremosa.",
+                      "Tasteu i ajusteu els condiments si cal. Serviu calent i gaudiu!"
+                    ]
+                  },
                   panSearedHaddock: {
                     name: 'Lluç al Forn amb Salsa de Mantega, All i Vi Blanc',
                     story: "Aquest plat destaca els ingredients de qualitat de manera preciosa; una preparació clàssica i elegant que és ràpida, impressionant i plena de sabors brillants i sofisticats.",
@@ -538,8 +600,39 @@ export const translations = {
         },
         recipes: {
             text1: "Todas las recetas actuales",
-            allItems: ['brownies', "spanishYogurtCake", 'ganache', 'bananaBread', 'oliveGardenSalmon', 'doubleChocolateChipMuffins','corianderCrustedSalmon', 'panSearedHaddock'].sort(),
+            allItems: ['brownies', "spanishYogurtCake", 'ganache', 'bananaBread', 'oliveGardenSalmon', 'doubleChocolateChipMuffins','corianderCrustedSalmon', 'panSearedHaddock', 'mashedPotatoesWithPeas'].sort(),
                 items: {
+                  mashedPotatoesWithPeas: {
+                    name: 'Puré de Patatas con Guisantes',
+                    story: "Un acompañamiento reconfortante y rústico que combina patatas rojas cremosas con guisantes tiernos y condimentos aromáticos, creando un plato casero y delicioso.",
+                    stats: {
+                      prep: "5 min",
+                      cook: "30 min",
+                      serves: 8
+                    },
+                    ingredients: [
+                      "10 patatas rojas (unos 2 kg)",
+                      "280 g de guisantes",
+                      "375 ml de leche",
+                      "30 g de mantequilla",
+                      "Ajo en polvo al gusto",
+                      "Pimienta negra al gusto",
+                      "Hojas de tomillo al gusto",
+                      "Cebolla en polvo al gusto",
+                      "Cebollino al gusto",
+                      "Orégano italiano al gusto"
+                    ],
+                    directions: [
+                      "Corte las patatas en trozos de tamaño similar. Puede dejar la piel para más sabor y textura.",
+                      "Hierva las patatas en una olla grande con agua y sal durante unos 20 minutos o hasta que estén tiernas. Escurra bien.",
+                      "En la misma olla, hierva los guisantes durante unos 8 minutos, según la textura deseada. Escurra bien.",
+                      "Consejo: Para ahorrar platos, hierva primero las patatas, escúrralas, y luego reutilice la misma olla para hervir los guisantes antes de mezclarlos.",
+                      "Unte la base de la olla con mantequilla y vuelva a poner las patatas y los guisantes.",
+                      "Añada ajo en polvo, pimienta negra, tomillo, cebolla en polvo, cebollino y orégano italiano mientras tritura las patatas y los guisantes juntos.",
+                      "Cuando estén parcialmente triturados, agregue la leche poco a poco y mezcle hasta obtener una textura suave y cremosa.",
+                      "Pruebe y ajuste los condimentos si es necesario. Sirva caliente y disfrute."
+                    ]
+                  },
                   panSearedHaddock: {
                     name: 'Eglefino Sellado con Salsa de Mantequilla al Ajillo y Vino Blanco',
                     story: "Este plato resalta los ingredientes de calidad de forma hermosa; una preparación clásica y elegante que es rápida, impresionante y rebosa sabores vibrantes y sofisticados.",

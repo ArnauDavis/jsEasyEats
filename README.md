@@ -7,11 +7,11 @@ Family favorite recipes, all in one convenient spot!
     <img src="src/assets/easyeats.gif" style="height: auto; width: 100%; object-fit: cover; transform: translateY(-30px);" alt="easyeats-gif"/>
 </div>
 
+**Tech used:** TailWind, DaisyUI, React
 
 ## How It's Made:
 
-**Tech used:** TailWind, DaisyUI, React
-
+Easy Eats is an app that presents recipes in a responsive web app with an engaging style and features the ability to translate absolutely everything into 3 different languages. The translations are stored in the translations.js file, here is where I export the translations object, the breakdown of the translation object is as follows. The first will be en, cat, and es, this determines which language is sent to be rendered. 
 
 
 
