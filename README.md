@@ -1,5 +1,5 @@
 # Easy Eats
-Family favorite recipes, all in one convenient spot!
+Making family recipes accessible to everyone, regardless of language.
 
 **Link to project:** https://js-easy-eats.vercel.app/
 
@@ -9,23 +9,44 @@ Family favorite recipes, all in one convenient spot!
 
 **Tech used:** TailWind, DaisyUI, React
 
+<br>
+
+
 ## How It's Made:
 
-Easy Eats is an app that presents recipes in a responsive web app with an engaging style and features the ability to translate absolutely everything into 3 different languages. The translations are stored in the translations.js file, here is where I export the translations object, the breakdown of the translation object is as follows. The first will be en, cat, and es, this determines which language is sent to be rendered. 
+Easy Eats was built to make family recipes accessible regardless of the language someone speaks. The application supports English, Catalan, and Spanish, with the ability to change the language of the entire application instantly.
+
+To accomplish this, I created a centralized translation object in translations.js, separating the content for each supported language. I then used React state to determine which language object should be rendered throughout the application. This allowed me to change the language of the entire experience without having to individually manage translations within each component.
 
 
+<br>
 
-## Optimizations
+<!-- ## Optimizations -->
 
 
 
 
 ## Lessons Learned:
 
-the limitless of variables that can be added to a url
+*Centralizing Application Content*
 
-In tailwind, classes without prefixes apply to smaller screens first, using a prefix like sm apply as the screen gets larger
+I learned how to organize application content into JavaScript objects and use React state to dynamically determine which content should be displayed. This provided a more manageable approach to supporting multiple languages.
 
-A lot of multipaged projects sometimes don't render because it isn't refreshed from a sleeping state while still being on the '/routeForAbout' for example instead of on the '/' route. Using a vercel.json file, I can make sure all returning requests would be sent on the '/' route, very nice.
+<br>
 
-In another project I learned about using themes in Daisy UI, here I learned how to set custom color values instead of just using default values.
+*Handling Client Side Routing*
+
+I encountered an issue where refreshing a page on a nested route would result in a failed request on Vercel. I learned how to configure a vercel.json file to rewrite incoming requests to the application's entry point, allowing React Router to handle the routing.
+
+<br>
+
+*Customizing DaisyUI Themes*
+
+I learned how to customize DaisyUI theme colors rather than relying on its default color palette, giving me more control over the application's appearance.
+
+<br>
+
+*Responsive Design with Tailwind CSS*
+
+I learned how Tailwind's responsive prefixes work, particularly how unprefixed classes apply across screen sizes while prefixes such as sm: apply at specific breakpoints.
+
